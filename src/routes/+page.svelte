@@ -1,6 +1,7 @@
 <script lang="ts">
     import { fly, fade } from "svelte/transition";
     import ProjectCard from "$lib/components/ProjectCard.svelte";
+    import ScrambleText from "$lib/components/ScrambleText.svelte";
     import { projects } from "$lib/projects";
 
     let visible = $state(false);
@@ -44,7 +45,8 @@
                         in:fly={{ y: 30, duration: 800, delay: 200 }}
                         class="text-xs font-black uppercase tracking-[0.5em] text-brand-primary"
                     >
-                        Developer • Security Researcher • Student
+                        Developer • Cybersecurity • Competetive Programmer •
+                        Student
                     </h2>
                     <h1
                         in:fly={{ y: 50, duration: 800, delay: 400 }}
@@ -52,16 +54,16 @@
                     >
                         HI, I'M <span
                             class="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary"
-                            >ZAIN.</span
+                            >ZAIN MARSHALL.</span
                         >
                     </h1>
                     <p
                         in:fade={{ duration: 1000, delay: 800 }}
                         class="text-xl md:text-2xl text-brand-muted max-w-xl font-medium leading-relaxed"
                     >
-                        A 15-year-old developer at TJHSST building
-                        high-performance systems and exploring the world of
-                        offensive security.
+                        A 15-year-old developer at TJHSST building fun projects
+                        and exploring the world of competetive programming and
+                        cybersecurity.
                     </p>
                 </div>
 
@@ -182,6 +184,48 @@
         {/if}
     </section>
 
+    <!-- Projects Section (Moved Up) -->
+    <section id="projects" class="scroll-mt-32 space-y-20">
+        <div
+            class="flex flex-col md:flex-row md:items-end justify-between gap-10"
+        >
+            <div class="space-y-4">
+                <span
+                    class="text-[10px] font-black uppercase tracking-[0.4em] text-brand-secondary"
+                    >Highlights</span
+                >
+                <h2 class="text-6xl md:text-8xl font-black tracking-tighter">
+                    <ScrambleText text="Production Grade." delay={800} />
+                </h2>
+            </div>
+            <div class="space-y-6">
+                <p
+                    class="text-brand-muted max-w-sm text-lg font-medium leading-relaxed"
+                >
+                    A curated selection of high-performance systems and security
+                    research.
+                </p>
+                <a
+                    href="/projects"
+                    class="inline-block text-xs font-black uppercase tracking-widest text-brand-primary hover:text-white transition-colors group"
+                >
+                    View Archive <span
+                        class="inline-block group-hover:translate-x-1 transition-transform"
+                        >→</span
+                    >
+                </a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
+            {#each projects.filter((p) => p.featured) as project, i}
+                <div class={i % 2 === 1 ? "md:mt-24" : ""}>
+                    <ProjectCard {project} />
+                </div>
+            {/each}
+        </div>
+    </section>
+
     <!-- Education Section -->
     <section class="space-y-16">
         <div class="flex flex-col gap-4">
@@ -189,7 +233,9 @@
                 class="text-[10px] font-black uppercase tracking-[0.4em] text-brand-accent"
                 >Journey</span
             >
-            <h2 class="text-6xl font-black tracking-tighter">Education.</h2>
+            <h2 class="text-6xl font-black tracking-tighter">
+                <ScrambleText text="Education." delay={600} />
+            </h2>
         </div>
 
         <div class="relative border-l-2 border-white/5 pl-12 space-y-20">
@@ -217,37 +263,6 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="scroll-mt-32 space-y-20">
-        <div
-            class="flex flex-col md:flex-row md:items-end justify-between gap-10"
-        >
-            <div class="space-y-4">
-                <span
-                    class="text-[10px] font-black uppercase tracking-[0.4em] text-brand-secondary"
-                    >Portfolio</span
-                >
-                <h2 class="text-6xl md:text-8xl font-black tracking-tighter">
-                    Production Grade.
-                </h2>
-            </div>
-            <p
-                class="text-brand-muted max-w-sm text-lg font-medium leading-relaxed"
-            >
-                A collection of my recent captures, technical deep dives, and
-                security research.
-            </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
-            {#each projects as project, i}
-                <div class={i % 2 === 1 ? "md:mt-24" : ""}>
-                    <ProjectCard {project} />
-                </div>
-            {/each}
-        </div>
-    </section>
-
     <!-- CTA -->
     <section>
         <div
@@ -256,7 +271,8 @@
             <h2
                 class="text-6xl md:text-8xl font-black text-brand-bg tracking-tighter shrink-0 leading-tight"
             >
-                LET'S SYNC<br />SYSTEMS.
+                <ScrambleText text="LET'S SYNC" delay={200} /><br />
+                <ScrambleText text="SYSTEMS." delay={400} />
             </h2>
             <a
                 href="mailto:zainmarshall1000@gmail.com"

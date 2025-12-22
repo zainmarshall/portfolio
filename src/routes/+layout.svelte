@@ -4,16 +4,19 @@
 	import { page } from "$app/state";
 
 	import InteractiveBackground from "$lib/components/InteractiveBackground.svelte";
+	import Introduction from "$lib/components/Introduction.svelte";
 	import { onMount } from "svelte";
 
 	let { children } = $props();
 
 	let cursorRing: HTMLDivElement;
 	let scrolled = $state(false);
+	let showIntro = $state(true);
+	let showContent = $state(false);
 
 	const navItems = [
 		{ name: "Home", path: `${base}/` },
-		{ name: "Projects", path: `${base}/#projects` },
+		{ name: "Projects", path: `${base}/projects` },
 		{ name: "Writeups", path: `${base}/writeups` },
 	];
 
@@ -36,11 +39,22 @@
 	});
 </script>
 
+{#if showIntro}
+	<Introduction
+		onExplode={() => (showContent = true)}
+		onFinish={() => (showIntro = false)}
+	/>
+{/if}
+
 <div class="cursor-ring hidden md:block" bind:this={cursorRing}></div>
 
 <InteractiveBackground />
 
-<div class="min-h-screen relative overflow-hidden flex flex-col">
+<div
+	class="min-h-screen relative overflow-hidden flex flex-col transition-opacity duration-[2000ms] {showContent
+		? 'opacity-100'
+		: 'opacity-0'}"
+>
 	<!-- Navigation -->
 	<nav
 		class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-8 px-12 transition-all duration-300 {scrolled
