@@ -161,23 +161,11 @@
                     <div
                         class="absolute inset-0 bg-brand-surface rounded-[3rem] overflow-hidden border border-white/10 group-hover:-translate-x-4 group-hover:-translate-y-4 transition-transform duration-500"
                     >
-                        <div
-                            class="w-full h-full bg-gradient-to-br from-brand-surface to-[#1a1a1f] flex flex-col items-center justify-center p-8 gap-4"
-                        >
-                            <span
-                                class="text-brand-muted font-black text-2xl opacity-20 text-center uppercase tracking-widest"
-                                >ZAIN MARSHALL</span
-                            >
-                            <div
-                                class="w-20 h-1 bg-brand-primary/20 rounded-full"
-                            ></div>
-                            <p
-                                class="text-[10px] text-brand-muted/40 font-mono text-center px-4 uppercase tracking-[0.2em]"
-                            >
-                                DISTRICT OF COLUMBIA<br />
-                                EST. 2009
-                            </p>
-                        </div>
+                        <img
+                            src="/images/zain.jpg"
+                            alt="Zain Marshall"
+                            class="w-full h-full object-cover object-top"
+                        />
                     </div>
                 </div>
             </div>
