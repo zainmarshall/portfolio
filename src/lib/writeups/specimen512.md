@@ -33,7 +33,7 @@ CAATCTAGAACTCCAAACGAGTGTCCGCTTGAAGTTCAATTCGTAATAGATCTGACACACATTCGGAAGGATATC...
 The DNA sequence kept repeating for many pages, but the intresting part was the hint given at the top of the file. 
 
 ## Step 1: Base64
-From the hint, we can see that the DNA sequence is made up of triplets (condonds), and each of those triplets represents a base64 character. This works because there are 4 DNA bases, and base64 has 64 characters. Having 3 bases allows for encoding $4^3 = 64$ characters. 
+From the hint, we can see that the DNA sequence is made up of triplets (condonds), and each of those triplets represents a base64 character. This works because there are 4 DNA bases, and base64 has 64 characters. Having 3 bases allows for encoding 4^3 = 64 characters. 
 
 I wrote the following python code to convert the DNA sequence to base64 and then decode the base64:
 ```python

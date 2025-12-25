@@ -3,23 +3,14 @@
     import ProjectCard from "$lib/components/ProjectCard.svelte";
     import ScrambleText from "$lib/components/ScrambleText.svelte";
     import { projects } from "$lib/projects";
+    import Technologies from '$lib/components/Technologies.svelte';
 
     let visible = $state(false);
     $effect(() => {
         visible = true;
     });
 
-    const techItems = [
-        { name: "C++", color: "#00599c" },
-        { name: "Python", color: "#3776ab" },
-        { name: "Java", color: "#007396" },
-        { name: "Svelte", color: "#ff3e00" },
-        { name: "Tailwind", color: "#38bdf8" },
-        { name: "Docker", color: "#2496ed" },
-        { name: "Linux", color: "#fcc624" },
-        { name: "Raspberry Pi", color: "#c51a4a" },
-        { name: "CyberSecurity", color: "#bcff00" },
-    ];
+        // tech list moved into `Technologies.svelte`
 
     const education = [
         {
@@ -124,7 +115,7 @@
                             <div
                                 class="text-[10px] font-bold uppercase tracking-widest text-brand-muted"
                             >
-                                Rooted
+                                Rooted 
                             </div>
                         </div>
                     </div>
@@ -170,6 +161,13 @@
                 </div>
             </div>
         {/if}
+    </section>
+
+    <!-- Technologies Section -->
+    <section>
+        <div class="mt-12">
+            <Technologies />
+        </div>
     </section>
 
     <!-- Projects Section (Moved Up) -->
