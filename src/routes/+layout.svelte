@@ -80,12 +80,7 @@
 					{item.name}
 				</a>
 			{/each}
-			<a
-				href="mailto:contact@zain.dev"
-				class="px-6 py-2 bg-brand-primary text-brand-bg text-[10px] font-bold uppercase tracking-widest rounded-full hover:scale-105 transition-transform"
-			>
-				Let's Talk
-			</a>
+			
 		</div>
 	</nav>
 

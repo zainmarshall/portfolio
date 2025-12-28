@@ -10,14 +10,16 @@
         visible = true;
     });
 
+    const email = 'zainmarshall1000@gmail.com';
+
         // tech list moved into `Technologies.svelte`
 
     const education = [
         {
             title: "Thomas Jefferson High School for Science and Technology",
-            period: "2023 - Present",
+            period: "2024 - Present",
             description:
-                "Intended Lab: Computer Systems. Focusing on systems architecture, performance optimization, and advanced computer science.",
+                "Intended Lab: Computer Systems.\nRelevant Coursework: AP Computer Science A+ Data Structures, AP Calculus BC, AP Statistics",
             location: "Alexandria, VA",
         },
     ];
@@ -36,8 +38,7 @@
                         in:fly={{ y: 30, duration: 800, delay: 200 }}
                         class="text-xs font-black uppercase tracking-[0.5em] text-brand-primary"
                     >
-                        Developer • Cybersecurity • Competetive Programmer •
-                        Student
+                        Developer • Student • Competetive Programmer
                     </h2>
                     <h1
                         in:fly={{ y: 50, duration: 800, delay: 400 }}
@@ -94,30 +95,18 @@
                         </a>
                     </div>
 
-                    <!-- Detailed Stats Overlay -->
-                    <div class="flex gap-10 border-l border-white/10 pl-10">
-                        <div>
-                            <div class="text-3xl font-black text-brand-primary">
-                                C++
-                            </div>
-                            <div
-                                class="text-[10px] font-bold uppercase tracking-widest text-brand-muted"
-                            >
-                                Competitive
-                            </div>
-                        </div>
-                        <div>
-                            <div
-                                class="text-3xl font-black text-brand-secondary"
-                            >
-                                LINUX
-                            </div>
-                            <div
-                                class="text-[10px] font-bold uppercase tracking-widest text-brand-muted"
-                            >
-                                Rooted 
-                            </div>
-                        </div>
+                    <!-- Email (icon + address) -->
+                    <div class="flex items-center gap-4">
+                        <a
+                            href="mailto:zainmarshall1000@gmail.com"
+                            aria-label="Email"
+                            class="p-4 bg-white/5 rounded-2xl hover:bg-brand-primary/20 hover:text-brand-primary transition-all group flex items-center gap-3"
+                        >
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                            <span class="text-sm font-medium">{email}</span>
+                        </a>
                     </div>
                 </div>
 
@@ -170,47 +159,6 @@
         </div>
     </section>
 
-    <!-- Projects Section (Moved Up) -->
-    <section id="projects" class="scroll-mt-32 space-y-20">
-        <div
-            class="flex flex-col md:flex-row md:items-end justify-between gap-10"
-        >
-            <div class="space-y-4">
-                <span
-                    class="text-[10px] font-black uppercase tracking-[0.4em] text-brand-secondary"
-                    >Highlights</span
-                >
-                <h2 class="text-6xl md:text-8xl font-black tracking-tighter">
-                    <ScrambleText text="Production Grade." delay={800} />
-                </h2>
-            </div>
-            <div class="space-y-6">
-                <p
-                    class="text-brand-muted max-w-sm text-lg font-medium leading-relaxed"
-                >
-                    A curated selection of high-performance systems and security
-                    research.
-                </p>
-                <a
-                    href="/projects"
-                    class="inline-block text-xs font-black uppercase tracking-widest text-brand-primary hover:text-white transition-colors group"
-                >
-                    View Archive <span
-                        class="inline-block group-hover:translate-x-1 transition-transform"
-                        >→</span
-                    >
-                </a>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
-            {#each projects.filter((p) => p.featured) as project, i}
-                <div class={i % 2 === 1 ? "md:mt-24" : ""}>
-                    <ProjectCard {project} />
-                </div>
-            {/each}
-        </div>
-    </section>
 
     <!-- Education Section -->
     <section class="space-y-16">
@@ -250,24 +198,6 @@
     </section>
 
     <!-- CTA -->
-    <section>
-        <div
-            class="bg-brand-primary p-20 rounded-[4rem] text-center space-y-8 shadow-[0_0_50px_rgba(0,255,204,0.3)]"
-        >
-            <h2
-                class="text-6xl md:text-8xl font-black text-brand-bg tracking-tighter shrink-0 leading-tight"
-            >
-                <ScrambleText text="LET'S SYNC" delay={200} /><br />
-                <ScrambleText text="SYSTEMS." delay={400} />
-            </h2>
-            <a
-                href="mailto:zainmarshall1000@gmail.com"
-                class="inline-block px-12 py-6 bg-brand-bg text-brand-primary text-xl font-black uppercase tracking-[0.2em] rounded-full hover:scale-110 transition-transform shadow-2xl"
-            >
-                zainmarshall1000@gmail.com
-            </a>
-        </div>
-    </section>
 </div>
 
 <style>
