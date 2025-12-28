@@ -25,6 +25,10 @@
     ];
 </script>
 
+<svelte:head>
+    <title>Zain's Portfolio</title>
+</svelte:head>
+
 <div class="max-w-6xl mx-auto px-12 flex flex-col gap-40 pb-40 pt-48 shrink-0">
     <!-- Restructured Hero Section -->
     <section
@@ -98,7 +102,7 @@
                     <!-- Email (icon + address) -->
                     <div class="flex items-center gap-4">
                         <a
-                            href="mailto:zainmarshall1000@gmail.com"
+                            href="mailto:{email}"
                             aria-label="Email"
                             class="p-4 bg-white/5 rounded-2xl hover:bg-brand-primary/20 hover:text-brand-primary transition-all group flex items-center gap-3"
                         >
@@ -115,13 +119,13 @@
                     class="flex gap-4"
                 >
                     <a
-                        href="#projects"
+                        href="/projects"
                         class="px-8 py-4 bg-white text-black font-black text-sm uppercase tracking-widest rounded-full hover:scale-105 transition-transform"
                     >
                         View My Work
                     </a>
                     <a
-                        href="mailto:zainmarshall1000@gmail.com"
+                        href="mailto:{email}"
                         class="px-8 py-4 border border-white/10 text-white font-black text-sm uppercase tracking-widest rounded-full hover:bg-white/5 transition-all"
                     >
                         Get In Touch
