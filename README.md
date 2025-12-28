@@ -1,3 +1,5 @@
-hello wqorld! 
+This is the portfolio website of Zain Marshall!
 
-## 🥀 if u see ts
+## Tech Stack
+- Sveltekit
+- Tailwind CSS
