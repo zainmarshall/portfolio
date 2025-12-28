@@ -15,8 +15,6 @@ const allTechs: Tech[] = [
   { name: 'HTML', color: '#E34F26', plain: '/images/logos/html5-plain.svg', original: '/images/logos/html5-original.svg' },
   { name: 'SQL', color: '#003B57', plain: '/images/logos/postgresql-plain.svg', original: '/images/logos/postgresql-original.svg' },
   { name: 'Linux', color: '#FCC624', plain: '/images/logos/linux-plain.svg', original: '/images/logos/linux-original.svg' },
-  { name: 'CLI', color: '#333', plain: '/images/logos/terminal-plain.svg', original: '/images/logos/terminal-plain.svg' },
-  { name: 'AI', color: '#8b5cf6', plain: '/images/logos/ai-plain.svg', original: '/images/logos/ai-plain.svg' }
 ];
 
 let techsToShow = selected && selected.length
