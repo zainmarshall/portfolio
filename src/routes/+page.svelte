@@ -157,7 +157,16 @@
     </section>
 
     <!-- Technologies Section -->
-    <section>
+    <section class="space-y-8">
+        <div class="flex flex-col gap-4">
+            <span class="text-[10px] font-black uppercase tracking-[0.4em] text-brand-accent"
+                >Skills</span
+            >
+            <h2 class="text-6xl font-black tracking-tighter">
+                <ScrambleText text="Technologies & Tools" delay={200} />
+            </h2>
+        </div>
+
         <div class="mt-12">
             <Technologies />
         </div>
