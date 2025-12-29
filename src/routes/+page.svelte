@@ -27,6 +27,7 @@
 
 <svelte:head>
     <title>Zain's Portfolio</title>
+
 </svelte:head>
 
 <div class="max-w-6xl mx-auto px-12 flex flex-col gap-40 pb-40 pt-48 shrink-0">
