@@ -1,4 +1,3 @@
-import portfolioImg from '$lib/assets/portfolio.png';
 
 export const projects = [
     {
@@ -7,7 +6,7 @@ export const projects = [
         github: 'https://github.com/zainmarshall/aegish',
         website: '', // Add website if available
         technologies: ['Python'],
-        image: '', // Add image later
+        image: '/images/project_images/aegish.png',
         featured: true
     },
     {
@@ -16,6 +15,6 @@ export const projects = [
         github: 'https://github.com/zainmarshall/portfolio',
         website: 'https://zainm.me/',
         technologies: ['Svelte', 'Tailwind CSS', 'JavaScript'],
-        image: portfolioImg,
+        image: "/images/project_images/portfolio.png",
     }
 ];
