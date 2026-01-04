@@ -8,8 +8,8 @@ ctf: "V1t 2025 CTF"
 challenge_author: "Shah Ji"
 challenge_description: "An unmarked data file was recovered from an abandoned research server labeled only as Specimen 512. No accompanying documentation, no metadata, and no obvious contents — just a massive file filled with strange sequences. Some say it hides a secret."
 challenge_files:
-  - name: "Specimen_512.fasta"
-    link: "#" 
+  - name: "Specimen_512.zip"
+    link: "/writeups/Specimen_512.zip" 
 flag: "v1t{30877432d1026706d7e805da846a32c3}"
 published: true
 ---

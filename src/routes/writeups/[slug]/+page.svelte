@@ -135,7 +135,7 @@
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             class="w-4 h-4"
-                                            viewBox="0 0 24 24"
+                                            viewBox="0 0 24 24" 
                                             fill="none"
                                             stroke="currentColor"
                                             stroke-width="2.5"

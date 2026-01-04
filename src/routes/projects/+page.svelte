@@ -23,13 +23,6 @@
             >
                 Projects.
             </h1>
-            <p
-                in:fade={{ duration: 1000, delay: 400 }}
-                class="text-xl text-brand-muted max-w-xl font-medium leading-relaxed"
-            >
-                A documented trail of full-stack applications, security tools,
-                and technical experiments.
-            </p>
         {/if}
     </header>
 
