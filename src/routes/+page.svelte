@@ -43,7 +43,7 @@
                         in:fly={{ y: 30, duration: 800, delay: 200 }}
                         class="text-xs font-black uppercase tracking-[0.5em] text-brand-primary"
                     >
-                        Developer • Student • Competetive Programmer
+                        Developer • Student • Competitive Programmer
                     </h2>
                     <h1
                         in:fly={{ y: 50, duration: 800, delay: 400 }}
@@ -59,7 +59,7 @@
                         class="text-xl md:text-2xl text-brand-muted max-w-xl font-medium leading-relaxed"
                     >
                         A 15-year-old developer at TJHSST building fun projects
-                        and exploring the world of competetive programming and
+                        and exploring the world of competitive programming and
                         cybersecurity.
                     </p>
                 </div>
