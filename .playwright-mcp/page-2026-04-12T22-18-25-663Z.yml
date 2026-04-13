@@ -1,0 +1,83 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "Zain Marshall" [ref=e6] [cursor=pointer]:
+        - /url: ./
+      - generic [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: ./
+        - link "Projects" [ref=e9] [cursor=pointer]:
+          - /url: ./projects
+        - link "Writeups" [ref=e10] [cursor=pointer]:
+          - /url: ./writeups
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - img "Zain Marshall" [ref=e22]
+        - generic [ref=e23]:
+          - heading "Zain Marshall" [level=1] [ref=e24]
+          - paragraph [ref=e25]: Developer. Student. Competitive programmer.
+          - generic [ref=e26]:
+            - link "GitHub" [ref=e27] [cursor=pointer]:
+              - /url: https://github.com/zainmarshall
+              - img [ref=e28]
+            - link "LinkedIn" [ref=e30] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/zain-marshall-4132b1338
+              - img [ref=e31]
+            - link "Email" [ref=e33] [cursor=pointer]:
+              - /url: mailto:zainmarshall1000@gmail.com
+              - img [ref=e34]
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: 5+
+          - generic [ref=e40]: Languages
+        - generic [ref=e41]:
+          - generic [ref=e42]: "2"
+          - generic [ref=e43]: Projects
+        - generic [ref=e44]:
+          - generic [ref=e45]: TJHSST
+          - generic [ref=e46]: School
+        - link "Contact me" [ref=e48] [cursor=pointer]:
+          - /url: mailto:zainmarshall1000@gmail.com
+      - generic [ref=e49]:
+        - heading "About" [level=2] [ref=e50]
+        - paragraph [ref=e51]: I'm a 15-year-old developer at Thomas Jefferson High School for Science and Technology. I build tools, explore competitive programming, and dig into cybersecurity. Currently focused on systems programming and CTF competitions.
+      - generic [ref=e52]:
+        - heading "Skills" [level=2] [ref=e53]
+        - paragraph [ref=e54]: TypeScript, JavaScript, Python, Java, C++, Svelte, Tailwind CSS, HTML, SQL, Linux
+      - generic [ref=e55]:
+        - heading "Education" [level=2] [ref=e56]
+        - generic [ref=e57]:
+          - heading "Thomas Jefferson High School for Science and Technology" [level=3] [ref=e58]
+          - paragraph [ref=e59]: 2024 – Present · Alexandria, VA
+          - paragraph [ref=e60]: "Intended Lab: Computer Systems. Relevant Coursework: AP Computer Science A + Data Structures, AP Calculus BC, AP Statistics."
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - heading "Projects" [level=2] [ref=e63]
+          - link "View all →" [ref=e64] [cursor=pointer]:
+            - /url: ./projects
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - heading "Aegish" [level=3] [ref=e69]
+              - paragraph [ref=e70]: A lightweight CLI application for quickly converting natural language into linux commands.
+              - generic [ref=e72]: Python
+            - link "Code" [ref=e74] [cursor=pointer]:
+              - /url: https://github.com/zainmarshall/aegish
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - heading "Portfolio Website" [level=3] [ref=e78]
+              - paragraph [ref=e79]: This website! Built with SvelteKit and Tailwind CSS for a smooth, modern experience.
+              - generic [ref=e80]:
+                - generic [ref=e81]: Svelte
+                - generic [ref=e82]: Tailwind CSS
+                - generic [ref=e83]: JavaScript
+            - generic [ref=e84]:
+              - link "Code" [ref=e85] [cursor=pointer]:
+                - /url: https://github.com/zainmarshall/portfolio
+              - link "Live" [ref=e86] [cursor=pointer]:
+                - /url: https://zainm.me/
+  - contentinfo [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]: © 2026 Zain Marshall
+      - generic [ref=e97]: Built with SvelteKit

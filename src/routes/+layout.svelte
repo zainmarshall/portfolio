@@ -2,96 +2,54 @@
 	import "./layout.css";
 	import { base } from "$app/paths";
 	import { page } from "$app/state";
-
-	import InteractiveBackground from "$lib/components/InteractiveBackground.svelte";
-	import Introduction from "$lib/components/Introduction.svelte";
-	import { onMount } from "svelte";
+	import CommandPalette from "$lib/components/CommandPalette.svelte";
 
 	let { children } = $props();
-
-	let cursorRing: HTMLDivElement;
-	let scrolled = $state(false);
-	let showIntro = $state(true);
-	let showContent = $state(false);
+	let palette: CommandPalette;
 
 	const navItems = [
 		{ name: "Home", path: `${base}/` },
-		{ name: "Projects", path: `${base}/projects` },
-		{ name: "Writeups", path: `${base}/writeups` },
+		{ name: "CTFs", path: `${base}/writeups` },
 	];
-
-	onMount(() => {
-		const moveCursor = (e: MouseEvent) => {
-			if (!cursorRing) return;
-			cursorRing.style.transform = `translate3d(${e.clientX - 12}px, ${e.clientY - 12}px, 0)`;
-		};
-
-		const handleScroll = () => {
-			scrolled = window.scrollY > 50;
-		};
-
-		window.addEventListener("mousemove", moveCursor);
-		window.addEventListener("scroll", handleScroll);
-		return () => {
-			window.removeEventListener("mousemove", moveCursor);
-			window.removeEventListener("scroll", handleScroll);
-		};
-	});
 </script>
 
-{#if showIntro}
-	<Introduction
-		onExplode={() => (showContent = true)}
-		onFinish={() => (showIntro = false)}
-	/>
-{/if}
+<CommandPalette bind:this={palette} />
 
-<div class="cursor-ring hidden md:block" bind:this={cursorRing}></div>
+<div class="min-h-screen flex flex-col">
+	<!-- Navbar -->
+	<nav class="border-b border-border bg-surface">
+		<div class="max-w-[1200px] mx-auto px-8 md:px-16 flex justify-between items-center h-14">
+			<a href="{base}/" class="text-heading font-bold text-lg tracking-tight">
+				Zain Marshall
+			</a>
 
-<InteractiveBackground />
-
-<div
-	class="min-h-screen relative overflow-hidden flex flex-col transition-opacity duration-[2000ms] {showContent
-		? 'opacity-100'
-		: 'opacity-0'}"
->
-	<!-- Navigation -->
-	<nav
-		class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-8 px-12 transition-all duration-300 {scrolled
-			? 'nav-scrolled'
-			: ''}"
-	>
-		<a
-			href="{base}/"
-			class="text-2xl font-black tracking-tighter hover:text-brand-primary transition-colors"
-		>
-			ZAIN.
-		</a>
-
-		<div class="flex gap-10 items-center">
-			{#each navItems as item}
-				<a
-					href={item.path}
-					class="text-xs font-bold uppercase tracking-[0.2em] hover:text-brand-primary transition-colors {page
-						.url.pathname === item.path
-						? 'text-brand-primary'
-						: 'text-brand-muted'}"
-				>
-					{item.name}
-				</a>
-			{/each}
-			
+			<div class="flex gap-8 items-center">
+				{#each navItems as item}
+					<a
+						href={item.path}
+						class="text-sm transition-colors {page.url.pathname === item.path
+							? 'text-accent font-medium'
+							: 'text-muted hover:text-heading'}"
+					>
+						{item.name}
+					</a>
+				{/each}
+				<button
+					onclick={() => palette.toggle()}
+					class="hidden sm:inline text-xs text-muted border border-border px-1.5 py-0.5 cursor-pointer hover:text-heading hover:border-muted transition-colors bg-transparent"
+					title="Open command palette ( / )"
+				>/</button>
+			</div>
 		</div>
 	</nav>
 
-	<!-- Main Content -->
-	<main class="relative z-10 flex-1 flex flex-col">
+	<main class="flex-1">
 		{@render children()}
 	</main>
-</div>
 
-<style>
-	:global(html) {
-		scroll-behavior: smooth;
-	}
-</style>
+	<footer class="border-t border-border">
+		<div class="max-w-[1200px] mx-auto px-8 md:px-16 py-4 text-sm text-muted">
+			<span>&copy; 2026 Zain Marshall</span>
+		</div>
+	</footer>
+</div>

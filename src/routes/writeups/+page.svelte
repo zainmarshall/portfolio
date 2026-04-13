@@ -1,63 +1,43 @@
 <script lang="ts">
-    import { base } from "$app/paths";
-    import { fly } from "svelte/transition";
-    let { data } = $props();
+	import { base } from "$app/paths";
+	let { data } = $props();
 </script>
 
-<div class="max-w-6xl mx-auto px-12 pt-32 pb-24">
-    <div class="flex flex-col gap-4 mb-16">
-        <div class="flex items-center gap-4">
-            <div class="h-[1px] w-12 bg-brand-primary"></div>
-            <span
-                class="text-xs font-mono uppercase tracking-[0.3em] text-brand-primary"
-                >Knowledge Base</span
-            >
-        </div>
-        <h1 class="text-5xl font-black tracking-tighter">CTF Writeups</h1>
-        <p class="text-brand-muted max-w-xl text-lg">
-            A collection of my recent captures, technical deep dives, and
-            security research.
-        </p>
-    </div>
+<svelte:head>
+	<title>CTFs - Zain Marshall</title>
+</svelte:head>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {#each data.posts as post, i}
-            <a
-                href="{base}/writeups/{post.slug}"
-                in:fly={{ y: 20, duration: 800, delay: i * 100 }}
-                class="group glass p-8 rounded-3xl border border-white/5 hover:border-brand-primary/30 transition-all flex flex-col gap-6"
-            >
-                <div class="flex flex-wrap gap-2">
-                    {#each post.categories as category}
-                        <span
-                            class="px-2 py-0.5 rounded text-[10px] font-mono bg-white/5 text-brand-muted uppercase tracking-wider group-hover:bg-brand-primary/10 group-hover:text-brand-primary transition-colors"
-                        >
-                            {category}
-                        </span>
-                    {/each}
-                </div>
+<div class="max-w-[720px] mx-auto px-8 md:px-16 py-16 md:py-24">
+	<h1 class="text-3xl font-bold text-heading mb-2">CTFs</h1>
+	<p class="text-muted mb-6">
+		Member of <a href="https://ctftime.org/team/53812" target="_blank" class="text-accent hover:text-accent-hover transition-colors">TJCSC</a>
+		&middot; #2 Global &middot; #1 US
+		&middot;
+		<a href="https://ctftime.org/profile/zen10" target="_blank" class="text-accent hover:text-accent-hover transition-colors">CTFtime</a>
+	</p>
 
-                <div>
-                    <h2
-                        class="text-2xl font-bold mb-2 group-hover:text-brand-primary transition-colors"
-                    >
-                        {post.title}
-                    </h2>
-                    <p class="text-brand-muted line-clamp-2 leading-relaxed">
-                        {post.description}
-                    </p>
-                </div>
+	<h2 class="text-xl font-bold text-heading mb-4">Writeups</h2>
 
-                <div class="mt-auto flex items-center justify-between">
-                    <span class="text-xs font-mono text-brand-muted/50"
-                        >{post.date}</span
-                    >
-                    <span
-                        class="text-brand-primary opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all"
-                        >→</span
-                    >
-                </div>
-            </a>
-        {/each}
-    </div>
+	<div class="border-t border-border">
+		{#each data.posts as post}
+			<a
+				href="{base}/writeups/{post.slug}"
+				class="group flex items-baseline justify-between py-4 border-b border-border hover:pl-2 transition-all"
+			>
+				<div class="flex-1 min-w-0">
+					<h2 class="text-heading group-hover:text-accent transition-colors font-medium truncate">
+						{post.title}
+					</h2>
+					<div class="flex gap-2 mt-1">
+						{#each post.categories as category}
+							<span class="text-xs text-muted uppercase tracking-wider">
+								{category}
+							</span>
+						{/each}
+					</div>
+				</div>
+				<span class="text-sm text-muted ml-4 shrink-0">{post.date}</span>
+			</a>
+		{/each}
+	</div>
 </div>

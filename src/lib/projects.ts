@@ -1,20 +1,46 @@
-
 export const projects = [
     {
+        slug: 'aegish',
         title: 'Aegish',
         description: 'A lightweight CLI application for quickly converting natural language into linux commands.',
         github: 'https://github.com/zainmarshall/aegish',
-        website: '', // Add website if available
+        website: '',
         technologies: ['Python'],
-        image: '/images/project_images/aegish.png',
-        featured: true
     },
     {
+        slug: 'bliss',
+        title: 'Bliss',
+        description: 'A truly effective MacOS blocker.',
+        github: 'https://github.com/zainmarshall/bliss',
+        website: '',
+        technologies: ['C++', 'Swift'],
+    },
+    {
+        slug: 'zen-plus-plus',
+        title: 'Zen++',
+        description: 'A fast, lightweight interpreted language designed for competitive programming.',
+        github: 'https://github.com/zainmarshall/zen-plus-plus',
+        website: '',
+        technologies: ['C++'],
+    },
+    {
+        slug: 'scioly-id-bots',
+        title: 'Science Olympiad ID Bots',
+        description: 'Discord bots for practicing Science Olympiad identification events.',
+        github: 'https://github.com/zainmarshall/waterboiiii',
+        links: [
+            { label: 'Water Quality Bot', url: 'https://github.com/zainmarshall/waterboiiii' },
+            { label: 'Botany Bot', url: 'https://github.com/zainmarshall/botanybot' },
+        ],
+        website: '',
+        technologies: ['Python'],
+    },
+    {
+        slug: 'portfolio',
         title: 'Portfolio Website',
-        description: 'This website! Built with SvelteKit and Tailwind CSS for a smooth, modern experience.',
+        description: 'This website. Built with SvelteKit and Tailwind CSS.',
         github: 'https://github.com/zainmarshall/portfolio',
         website: 'https://zainm.me/',
-        technologies: ['Svelte', 'Tailwind CSS', 'JavaScript'],
-        image: "/images/project_images/portfolio.png",
-    }
+        technologies: ['Svelte', 'Tailwind CSS', 'TypeScript'],
+    },
 ];
