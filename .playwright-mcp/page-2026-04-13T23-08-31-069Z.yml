@@ -1,0 +1,155 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "..." [ref=e9] [cursor=pointer]:
+              - /url: "#hero"
+              - img "..." [ref=e10]
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Story" [ref=e13] [cursor=pointer]:
+              - /url: "#story"
+          - listitem [ref=e14]:
+            - link "Experiences" [ref=e15] [cursor=pointer]:
+              - /url: "#experiences"
+          - listitem [ref=e16]:
+            - link "Explorations" [ref=e17] [cursor=pointer]:
+              - /url: "#explorations"
+          - listitem [ref=e18]:
+            - link "Connect" [ref=e19] [cursor=pointer]:
+              - /url: "#connect"
+        - list [ref=e20]:
+          - link "Say \"👋 Hey!\"" [ref=e21] [cursor=pointer]:
+            - /url: mailto:hey@bence.codes
+            - generic [ref=e22]: Say "👋 Hey!"
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - img [ref=e27]
+            - img [ref=e29]
+            - img [ref=e31]
+            - img [ref=e33]
+            - img "..." [ref=e36]
+          - generic [ref=e39]: Open for Commissions
+        - heading "Hey👋 I'M Bence Gadányi. I’m a Hungarian 🇭🇺 SOftware Engineer 👨‍💻 anD Tinkerer 💡 currently based in Leeds, UK 🌤️ ...°C ..." [level=1] [ref=e48]:
+          - text: Hey👋 I'M Bence Gadányi. I’m a Hungarian 🇭🇺 SOftware Engineer 👨‍💻 anD Tinkerer 💡 currently based in Leeds, UK
+          - generic [ref=e50]:
+            - generic [ref=e51]: 🌤️ ...°C
+            - generic [ref=e52]: ...
+      - generic [ref=e53]:
+        - heading "Story" [level=2] [ref=e54]:
+          - img [ref=e55]
+          - text: Story
+        - generic [ref=e59]:
+          - img "B" [ref=e61]
+          - paragraph [ref=e62]: orn in Dombóvár, Hungary. Building in Leeds, United Kingdom. I've spent the past 5+ years in tech, working at startups (and for short while at a consultancy) on websites, web and native apps, and various backend systems. In my spare time I tinker with new tech to broaden my horizons and during work I join forces with teams where this forward thinking and tinkering mentality I can further nurture. I'm passionate about creating delightful user experiences and solving complex problems with simple solutions. I'm always looking for new and exciting projects to work on. Whether you're looking for a new website, a full-stack application, or anything in between, I'm here to help!
+      - generic [ref=e63]:
+        - heading "Experiences" [level=2] [ref=e64]:
+          - img [ref=e65]
+          - text: Experiences
+        - generic [ref=e69]:
+          - generic [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]:
+              - heading "Jugo" [level=3] [ref=e73]
+              - paragraph [ref=e74]: Software Engineer
+            - generic [ref=e75]:
+              - generic [ref=e76]: 2023 - 2024
+              - img [ref=e78]
+          - generic [ref=e81] [cursor=pointer]:
+            - generic [ref=e82]:
+              - heading "Smart Buildings" [level=3] [ref=e83]
+              - paragraph [ref=e84]: Full-Stack Engineer (Contract)
+            - generic [ref=e85]:
+              - generic [ref=e86]: 2022 - 2023
+              - img [ref=e88]
+          - generic [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]:
+              - heading "Netcompany" [level=3] [ref=e93]
+              - paragraph [ref=e94]: Software Developer Consultant
+            - generic [ref=e95]:
+              - generic [ref=e96]: 2022 - 2022
+              - img [ref=e98]
+          - generic [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]:
+              - heading "Resolver (formerly Crisp)" [level=3] [ref=e103]
+              - paragraph [ref=e104]: Solutions Engineer
+            - generic [ref=e105]:
+              - generic [ref=e106]: 2019 - 2021
+              - img [ref=e108]
+      - generic [ref=e110]:
+        - heading "Explorations" [level=2] [ref=e111]:
+          - img [ref=e112]
+          - text: Explorations
+        - generic [ref=e129]:
+          - 'link "Project image /_next/static/media/fwrog-e-mascot.e0dbc65c.webp Project image /_next/static/media/fwrog-e-annotation.ec61cd47.png Project image /_next/static/media/fwrog-e-architecture.3c3ef494.png Project image /_next/static/media/python_logo.52443fe6.png fwrog-e: the friendly chatbot in your pocket side project chatbot full-stack" [ref=e130] [cursor=pointer]':
+            - /url: /exploration/fwrog-e
+            - generic [ref=e131]:
+              - generic [ref=e135]:
+                - img "Project image /_next/static/media/fwrog-e-mascot.e0dbc65c.webp" [ref=e137]
+                - img "Project image /_next/static/media/fwrog-e-annotation.ec61cd47.png" [ref=e139]
+                - img "Project image /_next/static/media/fwrog-e-architecture.3c3ef494.png" [ref=e141]
+                - img "Project image /_next/static/media/python_logo.52443fe6.png" [ref=e143]
+              - generic [ref=e145]:
+                - 'heading "fwrog-e: the friendly chatbot in your pocket" [level=3] [ref=e146]'
+                - generic [ref=e147]:
+                  - generic [ref=e148]: side project
+                  - generic [ref=e149]: chatbot
+                  - generic [ref=e150]: full-stack
+            - img [ref=e151]
+            - img [ref=e152]
+          - 'link "Project image /_next/static/media/Ophelias_Chatroom.0d05fa57.jpeg Project image /_next/static/media/ts_logo.be98e0fe.png Ophelia''s Chatroom: experimental ai chatroom with Ophelia''s engram commission chatbot frontend art project" [ref=e153] [cursor=pointer]':
+            - /url: /exploration/ophelias-chatroom
+            - generic [ref=e154]:
+              - generic [ref=e158]:
+                - img "Project image /_next/static/media/Ophelias_Chatroom.0d05fa57.jpeg" [ref=e160]
+                - img "Project image /_next/static/media/ts_logo.be98e0fe.png" [ref=e162]
+              - generic [ref=e164]:
+                - 'heading "Ophelia''s Chatroom: experimental ai chatroom with Ophelia''s engram" [level=3] [ref=e165]'
+                - generic [ref=e166]:
+                  - generic [ref=e167]: commission
+                  - generic [ref=e168]: chatbot
+                  - generic [ref=e169]: frontend
+                  - generic [ref=e170]: art project
+            - img [ref=e171]
+            - img [ref=e172]
+      - generic [ref=e173]:
+        - img "handdrawn cloud" [ref=e175]
+        - img "handdrawn cloud" [ref=e177]
+        - generic [ref=e178]:
+          - heading "Connect" [level=2] [ref=e179]:
+            - img [ref=e180]
+            - text: Connect
+          - generic [ref=e183]:
+            - heading "Ready to work together on your next project?" [level=3] [ref=e184]
+            - paragraph [ref=e185]: Let's make it happen!
+            - link "start new project ✨" [ref=e186] [cursor=pointer]:
+              - /url: mailto:hey+commissions@bence.codes
+              - generic [ref=e187]: start new project ✨
+          - generic [ref=e188]:
+            - link "TWITTER" [ref=e189] [cursor=pointer]:
+              - /url: https://twitter.com/bencetxt
+              - generic [ref=e190]: TWITTER
+              - img [ref=e192]
+            - link "LINKEDIN" [ref=e195] [cursor=pointer]:
+              - /url: https://linkedin.com/in/bencepdf
+              - generic [ref=e196]: LINKEDIN
+              - img [ref=e198]
+            - link "INSTAGRAM" [ref=e201] [cursor=pointer]:
+              - /url: https://instagram.com/bence.jpeg
+              - generic [ref=e202]: INSTAGRAM
+              - img [ref=e204]
+            - link "GITHUB" [ref=e207] [cursor=pointer]:
+              - /url: https://github.com/Beenyaa
+              - generic [ref=e208]: GITHUB
+              - img [ref=e210]
+            - link "COSMOS" [ref=e213] [cursor=pointer]:
+              - /url: https://www.cosmos.so/bence.tiff
+              - generic [ref=e214]: COSMOS
+              - img [ref=e216]
+          - link "hey@bence.codes" [ref=e220] [cursor=pointer]:
+            - /url: mailto:hey@bence.codes
+        - img "Landscape handdrawn scenery" [ref=e221]
+  - alert [ref=e222]

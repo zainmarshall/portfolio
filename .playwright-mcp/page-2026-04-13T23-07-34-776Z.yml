@@ -1,0 +1,218 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Breadcrumbs" [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "~" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]: /
+        - listitem [ref=e10]:
+          - generic [ref=e11]: about
+        - listitem [ref=e12]: /
+        - listitem [ref=e13]
+    - navigation [ref=e15]:
+      - link "About" [ref=e16] [cursor=pointer]:
+        - /url: /about
+      - link "Posts" [ref=e17] [cursor=pointer]:
+        - /url: /posts
+      - link "Projects" [ref=e18] [cursor=pointer]:
+        - /url: /projects
+      - link "Pics" [ref=e19] [cursor=pointer]:
+        - /url: /pics
+      - button "Open more navigation items" [ref=e20] [cursor=pointer]: More...
+  - complementary [ref=e21]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: Navigation
+      - button "Close navigation menu" [ref=e24]:
+        - img [ref=e25]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Theme" [level=3] [ref=e30]:
+          - img [ref=e31]
+          - text: Theme
+        - generic [ref=e36]:
+          - button "Latte" [ref=e37] [cursor=pointer]
+          - button "Frappe" [ref=e38] [cursor=pointer]
+          - button "Macchiato" [ref=e39] [cursor=pointer]
+          - button "Mocha" [ref=e40] [cursor=pointer]
+      - generic [ref=e41]:
+        - button "Select rosewater accent color" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: rosewater
+        - button "Select flamingo accent color" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: flamingo
+        - button "Select pink accent color" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: pink
+        - button "Select mauve accent color" [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]: mauve
+        - button "Select red accent color" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: red
+        - button "Select maroon accent color" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: maroon
+        - button "Select peach accent color" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: peach
+        - button "Select yellow accent color" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: yellow
+        - button "Select green accent color" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: green
+        - button "Select teal accent color" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: teal
+        - button "Select sky accent color" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: sky
+        - button "Select sapphire accent color" [ref=e64] [cursor=pointer]:
+          - generic [ref=e65]: sapphire
+        - button "Select blue accent color" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: blue
+        - button "Select lavender accent color" [ref=e68] [cursor=pointer]:
+          - generic [ref=e69]: lavender
+      - generic [ref=e71] [cursor=pointer]:
+        - checkbox "Toggle the colorful background on/off" [ref=e72]
+        - generic [ref=e73]: "Background effect: off"
+    - navigation [ref=e74]:
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - link "About" [ref=e77] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e78]:
+          - link "Posts" [ref=e79] [cursor=pointer]:
+            - /url: /posts
+        - listitem [ref=e80]:
+          - link "Projects" [ref=e81] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=e82]:
+          - link "Pics" [ref=e83] [cursor=pointer]:
+            - /url: /pics
+        - listitem [ref=e84]:
+          - separator [ref=e85]
+        - listitem [ref=e86]: More
+        - listitem [ref=e87]:
+          - link "Resume" [ref=e88] [cursor=pointer]:
+            - /url: /resume.pdf
+        - listitem [ref=e89]:
+          - link "Tutorials" [ref=e90] [cursor=pointer]:
+            - /url: /tutorials
+        - listitem [ref=e91]:
+          - link "Notes" [ref=e92] [cursor=pointer]:
+            - /url: https://notes.jasoncameron.dev
+        - listitem [ref=e93]:
+          - link "Terminal" [ref=e94] [cursor=pointer]:
+            - /url: https://terminal.jasoncameron.dev
+  - main [ref=e95]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - heading "About Me" [level=1] [ref=e98]:
+          - generic [ref=e99]: About Me
+        - generic [ref=e100]:
+          - img "Jason Cameron" [ref=e102]
+          - generic [ref=e103]:
+            - paragraph [ref=e104]:
+              - text: Hey! I'm Jason Cameron
+              - link "(@JasonLovesDoggo)" [ref=e105] [cursor=pointer]:
+                - /url: /socials
+              - text: — a Senior Software Engineer at Stan based out of Toronto, Canada. I like to make
+              - link "cool projects" [ref=e106] [cursor=pointer]:
+                - /url: /projects
+              - text: when i'm bored.
+            - paragraph [ref=e107]:
+              - text: Some of my more notable projects include
+              - link "RedditVideoMakerBot" [ref=e108] [cursor=pointer]:
+                - /url: https://github.com/elebumm/RedditVideoMakerBot
+              - generic [ref=e109]:
+                - text: "9498"
+                - img [ref=e110]
+              - text: ", where I reverse engineered TikTok's TTS API, and"
+              - link "Anubis" [ref=e112] [cursor=pointer]:
+                - /url: /projects/anubis
+              - generic [ref=e113]:
+                - text: "18255"
+                - img [ref=e114]
+              - text: ", an anti-scraper tool currently protecting infrastructure at The Linux Foundation and the UN. My work focuses on backend development and system architecture. I maintain several services including"
+              - link "metropolis" [ref=e116] [cursor=pointer]:
+                - /url: https://maclyonsden.com/
+              - text: ","
+              - link "mCTF" [ref=e117] [cursor=pointer]:
+                - /url: https://ctf.mcpt.ca
+              - text: ","
+              - link "MCPT" [ref=e118] [cursor=pointer]:
+                - /url: https://mcpt.ca
+              - text: ", and"
+              - link "Foodle" [ref=e119] [cursor=pointer]:
+                - /url: https://jasoncameron.dev/foodle/
+              - text: .
+            - paragraph [ref=e120]:
+              - text: Outside of software, I enjoy playing Ultimate frisbee,
+              - link "photography" [ref=e121] [cursor=pointer]:
+                - /url: /pics
+              - text: ", organizing/participating at/mentoring hackathons and spending time with my dog, Bella ("
+              - link "see below" [ref=e122] [cursor=pointer]:
+                - /url: "#bella"
+              - text: ). I also have a passion for exploring the world in general! Feel free to
+              - button "shoot me an email" [ref=e123] [cursor=pointer]
+              - text: if you'd like to chat.
+            - generic [ref=e124]:
+              - link "GitHub" [ref=e125] [cursor=pointer]:
+                - /url: https://github.com/JasonLovesDoggo
+                - img [ref=e126]
+                - text: GitHub
+              - generic [ref=e128]: "*"
+              - link "LinkedIn" [ref=e129] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/jsoncameron/
+                - img [ref=e130]
+                - text: LinkedIn
+              - generic [ref=e133]: "*"
+              - button "Send an email to contact" [ref=e134] [cursor=pointer]:
+                - img [ref=e135]
+                - text: contact[at][thisdomain]
+      - generic [ref=e139]:
+        - heading "Copy link to section My Dog (Bella!)" [level=3] [ref=e140]:
+          - button "Copy link to section" [ref=e141] [cursor=pointer]: "#"
+          - img [ref=e142]
+          - text: My Dog (Bella!)
+        - generic [ref=e147]:
+          - img "A landscape of Bella in the autumn by a pond" [ref=e148]
+          - img "Portrait of Bella taken playing with a tennis ball" [ref=e149]
+          - img "Landscape of Bella lying next to a stick looking at the sky" [ref=e150]
+  - generic [ref=e151]:
+    - generic [ref=e153]:
+      - generic [ref=e154]: "Webrings:"
+      - link "cpt" [ref=e155] [cursor=pointer]:
+        - /url: https://ctp-webr.ing/
+      - generic [ref=e156]:
+        - text: "{"
+        - link "<" [ref=e157] [cursor=pointer]:
+          - /url: https://ctp-webr.ing/json/previous
+        - text: "|"
+        - link ">" [ref=e158] [cursor=pointer]:
+          - /url: https://ctp-webr.ing/json/next
+        - text: "}"
+    - contentinfo [ref=e159]:
+      - generic [ref=e160]:
+        - generic [ref=e161]: © 2026 Jason Cameron
+        - generic [ref=e162]: "-"
+        - generic "Service Status" [ref=e163]:
+          - generic [ref=e167]: All Services Nominal
+      - generic [ref=e168]:
+        - generic "How long you have been surfing my site" [ref=e169]:
+          - img [ref=e170]
+          - generic [ref=e173]: 00:00
+        - generic [ref=e174]: "-"
+        - link "1,224,242 views" [ref=e175] [cursor=pointer]:
+          - /url: https://abacus.jasoncameron.dev
+        - generic [ref=e176]: "-"
+        - link "448b603" [ref=e177] [cursor=pointer]:
+          - /url: https://github.com/JasonLovesDoggo/nyx/commit/448b603d730fb6d30735f86950662db46c81c997
+          - img [ref=e178]
+          - generic [ref=e180]: 448b603
+        - generic [ref=e181]: "-"
+        - generic [ref=e182]:
+          - link "GitHub" [ref=e183] [cursor=pointer]:
+            - /url: https://github.com/JasonLovesDoggo
+            - img [ref=e184]
+          - link "LinkedIn" [ref=e186] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/jsoncameron/
+            - img [ref=e187]
+          - link "X" [ref=e190] [cursor=pointer]:
+            - /url: https://x.com/tomlparser
+            - img [ref=e191]
+          - link "Instagram" [ref=e194] [cursor=pointer]:
+            - /url: https://www.instagram.com/jsn.cam/
+            - img [ref=e195]

@@ -1,0 +1,136 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "Zain Marshall" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "CTFs" [ref=e9] [cursor=pointer]:
+          - /url: /writeups
+        - button / [ref=e10] [cursor=pointer]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - img "Zain Marshall" [ref=e14]
+        - generic [ref=e15]:
+          - heading "Zain Marshall" [level=1] [ref=e16]
+          - paragraph [ref=e17]: Developer. Student. Competitive programmer.
+          - generic [ref=e18]:
+            - link "GitHub" [ref=e19] [cursor=pointer]:
+              - /url: https://github.com/zainmarshall
+              - img [ref=e20]
+            - link "LinkedIn" [ref=e22] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/zain-marshall-4132b1338
+              - img [ref=e23]
+            - link "Codeforces" [ref=e25] [cursor=pointer]:
+              - /url: https://codeforces.com/profile/zen10
+              - img [ref=e26]
+            - link "Email" [ref=e28] [cursor=pointer]:
+              - /url: mailto:zainmarshall1000@gmail.com
+              - img [ref=e29]
+      - generic [ref=e32]:
+        - heading "About" [level=2] [ref=e33]
+        - paragraph [ref=e34]: I'm a 16-year-old developer at Thomas Jefferson High School for Science and Technology. I build tools, explore competitive programming, and dig into cybersecurity. Currently focused on systems programming and CTF competitions.
+      - generic [ref=e35]:
+        - heading "Competitive Programming" [level=2] [ref=e36]
+        - paragraph [ref=e37]: USACO Gold · Codeforces Expert
+      - generic [ref=e38]:
+        - heading "Technologies" [level=2] [ref=e39]
+        - generic [ref=e40]:
+          - generic [ref=e41]: Languages
+          - generic [ref=e42]:
+            - generic "C++" [ref=e43]:
+              - generic [ref=e45]: C++
+            - generic "Java" [ref=e46]:
+              - generic [ref=e48]: Java
+            - generic "Python" [ref=e49]:
+              - generic [ref=e51]: Python
+            - generic "TypeScript" [ref=e52]:
+              - generic [ref=e54]: TypeScript
+        - generic [ref=e55]:
+          - generic [ref=e56]: Frontend
+          - generic [ref=e57]:
+            - generic "Svelte" [ref=e58]:
+              - generic [ref=e60]: Svelte
+            - generic "Tailwind" [ref=e61]:
+              - generic [ref=e63]: Tailwind
+            - generic "HTML" [ref=e64]:
+              - generic [ref=e66]: HTML
+        - generic [ref=e67]:
+          - generic [ref=e68]: Tools
+          - generic [ref=e69]:
+            - generic "SQL" [ref=e70]:
+              - generic [ref=e72]: SQL
+            - generic "Linux" [ref=e73]:
+              - generic [ref=e75]: Linux
+      - generic [ref=e76]:
+        - heading "Education" [level=2] [ref=e77]
+        - generic [ref=e78]:
+          - heading "Thomas Jefferson High School for Science and Technology" [level=3] [ref=e79]
+          - paragraph [ref=e80]: 2024 – Present · Alexandria, VA
+          - paragraph [ref=e81]: "Intended Lab: Computer Systems. Relevant Coursework: AP Computer Science A + Data Structures, AP Calculus BC, AP Statistics."
+      - generic [ref=e82]:
+        - heading "Projects" [level=2] [ref=e83]
+        - generic [ref=e84]:
+          - link "Aegish A lightweight CLI application for quickly converting natural language into linux commands. Python →" [ref=e85] [cursor=pointer]:
+            - /url: /projects/aegish
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - heading "Aegish" [level=3] [ref=e88]
+                - paragraph [ref=e89]: A lightweight CLI application for quickly converting natural language into linux commands.
+                - generic [ref=e91]: Python
+              - generic [ref=e92]: →
+          - link "Bliss A truly effective MacOS blocker. C++ Swift →" [ref=e93] [cursor=pointer]:
+            - /url: /projects/bliss
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - heading "Bliss" [level=3] [ref=e96]
+                - paragraph [ref=e97]: A truly effective MacOS blocker.
+                - generic [ref=e98]:
+                  - generic [ref=e99]: C++
+                  - generic [ref=e100]: Swift
+              - generic [ref=e101]: →
+          - link "Zen++ A custom interpreted language designed for competitive programming. C++ →" [ref=e102] [cursor=pointer]:
+            - /url: /projects/zen-plus-plus
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - heading "Zen++" [level=3] [ref=e105]
+                - paragraph [ref=e106]: A custom interpreted language designed for competitive programming.
+                - generic [ref=e108]: C++
+              - generic [ref=e109]: →
+          - link "Science Olympiad ID Bots Discord bots for practicing Science Olympiad identification events. Python →" [ref=e110] [cursor=pointer]:
+            - /url: /projects/scioly-id-bots
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - heading "Science Olympiad ID Bots" [level=3] [ref=e113]
+                - paragraph [ref=e114]: Discord bots for practicing Science Olympiad identification events.
+                - generic [ref=e116]: Python
+              - generic [ref=e117]: →
+          - link "Portfolio Website This website. Built with SvelteKit and Tailwind CSS. Svelte Tailwind CSS TypeScript →" [ref=e118] [cursor=pointer]:
+            - /url: /projects/portfolio
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - heading "Portfolio Website" [level=3] [ref=e121]
+                - paragraph [ref=e122]: This website. Built with SvelteKit and Tailwind CSS.
+                - generic [ref=e123]:
+                  - generic [ref=e124]: Svelte
+                  - generic [ref=e125]: Tailwind CSS
+                  - generic [ref=e126]: TypeScript
+              - generic [ref=e127]: →
+      - generic [ref=e128]:
+        - heading "Contact" [level=2] [ref=e129]
+        - paragraph [ref=e130]:
+          - link "zainmarshall1000@gmail.com" [ref=e131] [cursor=pointer]:
+            - /url: mailto:zainmarshall1000@gmail.com
+        - generic [ref=e132]:
+          - link "GitHub" [ref=e133] [cursor=pointer]:
+            - /url: https://github.com/zainmarshall
+          - link "LinkedIn" [ref=e134] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/zain-marshall-4132b1338
+          - link "Codeforces" [ref=e135] [cursor=pointer]:
+            - /url: https://codeforces.com/profile/zen10
+          - link "CTFtime" [ref=e136] [cursor=pointer]:
+            - /url: https://ctftime.org/profile/zen10
+  - contentinfo [ref=e137]:
+    - generic [ref=e138]: © 2026 Zain Marshall

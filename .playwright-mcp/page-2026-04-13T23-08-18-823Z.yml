@@ -1,0 +1,252 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Home" [ref=e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e6]: Home
+      - link "Work" [ref=e7] [cursor=pointer]:
+        - /url: "#work"
+        - generic [ref=e8]: Work
+      - link "About" [ref=e9] [cursor=pointer]:
+        - /url: "#about"
+        - generic [ref=e10]: About
+      - link "Contact" [ref=e11] [cursor=pointer]:
+        - /url: "#contact"
+        - generic [ref=e12]: Contact
+    - generic [ref=e15]:
+      - paragraph [ref=e16]: Based In Serbia
+      - generic [ref=e20]:
+        - generic [ref=e21]: Quality
+        - generic [ref=e22]: Design
+        - generic [ref=e23]: "&"
+        - generic [ref=e24]: Web
+        - generic [ref=e25]: Development
+        - generic [ref=e26]: Synergy
+      - paragraph [ref=e27]: Hi, I'm Andrija, I create intuitive, visually stunning and highly functional web applications.
+      - generic [ref=e28]:
+        - button "See My Work" [ref=e29] [cursor=pointer]:
+          - link "See My Work" [ref=e30]:
+            - /url: "#work"
+          - img [ref=e31]
+        - link "Download CV" [ref=e33] [cursor=pointer]:
+          - /url: /resume/CV_en.pdf
+          - img [ref=e34]
+          - generic [ref=e37]: Download CV
+      - generic [ref=e38]:
+        - img "Bogdan Aleksic" [ref=e40]
+        - img "Djordje Djurovic" [ref=e42]
+        - img "Anthony Sean" [ref=e44]
+        - img "Alex Finn" [ref=e46]
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - heading "Current technologies" [level=1] [ref=e49]
+        - paragraph [ref=e50]: I'm proficient in a range of modern technologies that empower me to build highly functional solutions. These are some of my main technologies.
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - img "Figma logo" [ref=e54]
+          - generic [ref=e55]:
+            - heading "Figma" [level=4] [ref=e56]
+            - paragraph [ref=e57]: Design Tool
+        - generic [ref=e58]:
+          - img "TypeScript logo" [ref=e60]
+          - generic [ref=e61]:
+            - heading "TypeScript" [level=4] [ref=e62]
+            - paragraph [ref=e63]: JavaScript but better
+        - generic [ref=e64]:
+          - img "React logo" [ref=e66]
+          - generic [ref=e67]:
+            - heading "React" [level=4] [ref=e68]
+            - paragraph [ref=e69]: JavaScript Library
+        - generic [ref=e70]:
+          - img "NextJS logo" [ref=e72]
+          - generic [ref=e73]:
+            - heading "NextJS" [level=4] [ref=e74]
+            - paragraph [ref=e75]: React framework
+        - generic [ref=e76]:
+          - img "Tailwind logo" [ref=e78]
+          - generic [ref=e79]:
+            - heading "Tailwind" [level=4] [ref=e80]
+            - paragraph [ref=e81]: CSS framework
+        - generic [ref=e82]:
+          - img "Git logo" [ref=e84]
+          - generic [ref=e85]:
+            - heading "Git" [level=4] [ref=e86]
+            - paragraph [ref=e87]: Version control
+        - generic [ref=e88]:
+          - img "Supabase logo" [ref=e90]
+          - generic [ref=e91]:
+            - heading "Supabase" [level=4] [ref=e92]
+            - paragraph [ref=e93]: Backend tool
+        - generic [ref=e94]:
+          - img "NodeJS logo" [ref=e96]
+          - generic [ref=e97]:
+            - heading "NodeJS" [level=4] [ref=e98]
+            - paragraph [ref=e99]: Backend
+        - generic [ref=e100]:
+          - img "MongoDB logo" [ref=e102]
+          - generic [ref=e103]:
+            - heading "MongoDB" [level=4] [ref=e104]
+            - paragraph [ref=e105]: NoSQL database
+        - generic [ref=e106]:
+          - img "Prisma logo" [ref=e108]
+          - generic [ref=e109]:
+            - heading "Prisma" [level=4] [ref=e110]
+            - paragraph [ref=e111]: ORM
+        - generic [ref=e112]:
+          - img "PostgreSQL logo" [ref=e114]
+          - generic [ref=e115]:
+            - heading "PostgreSQL" [level=4] [ref=e116]
+            - paragraph [ref=e117]: OR database system
+        - generic [ref=e118]:
+          - img "Vue logo" [ref=e120]
+          - generic [ref=e121]:
+            - heading "Vue" [level=4] [ref=e122]
+            - paragraph [ref=e123]: JavaScript framework
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - heading "My portfolio" [level=2] [ref=e126]
+        - button "All Projects" [ref=e127] [cursor=pointer]:
+          - link "All Projects" [ref=e128]:
+            - /url: https://github.com/andrijaweb
+          - img [ref=e129]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - link "Shoptidy" [ref=e133] [cursor=pointer]:
+            - /url: /work/shoptidy
+            - img "Shoptidy" [ref=e134]
+          - generic [ref=e135]:
+            - heading "Shoptidy" [level=3] [ref=e136]
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - paragraph [ref=e139]: TypeScript
+                - paragraph [ref=e140]: React
+                - paragraph [ref=e141]: Redux
+                - paragraph [ref=e142]: Supabase
+                - paragraph [ref=e143]: TailwindCSS
+                - paragraph [ref=e144]: shadcn/ui
+              - link [ref=e145] [cursor=pointer]:
+                - /url: /work/shoptidy
+                - img [ref=e146]
+        - generic [ref=e149]:
+          - link "ExpenseTracker" [ref=e150] [cursor=pointer]:
+            - /url: /work/exptracker
+            - img "ExpenseTracker" [ref=e151]
+          - generic [ref=e152]:
+            - heading "ExpenseTracker" [level=3] [ref=e153]
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - paragraph [ref=e156]: TypeScript
+                - paragraph [ref=e157]: React
+                - paragraph [ref=e158]: NodeJS
+                - paragraph [ref=e159]: MongoDB
+                - paragraph [ref=e160]: ExpressJS
+                - paragraph [ref=e161]: TailwindCSS
+                - paragraph [ref=e162]: shadcn/ui
+              - link [ref=e163] [cursor=pointer]:
+                - /url: /work/exptracker
+                - img [ref=e164]
+        - generic [ref=e167]:
+          - link "SocialSphere" [ref=e168] [cursor=pointer]:
+            - /url: /work/socialsphere
+            - img "SocialSphere" [ref=e169]
+          - generic [ref=e170]:
+            - heading "SocialSphere" [level=3] [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - paragraph [ref=e174]: JavaScript
+                - paragraph [ref=e175]: React
+                - paragraph [ref=e176]: CRUD
+                - paragraph [ref=e177]: Appwrite
+                - paragraph [ref=e178]: TailwindCSS
+                - paragraph [ref=e179]: TanStack
+              - link [ref=e180] [cursor=pointer]:
+                - /url: /work/socialsphere
+                - img [ref=e181]
+        - generic [ref=e184]:
+          - link "NextCut" [ref=e185] [cursor=pointer]:
+            - /url: /work/nextcut
+            - img "NextCut" [ref=e186]
+          - generic [ref=e187]:
+            - heading "NextCut" [level=3] [ref=e188]
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - paragraph [ref=e191]: TypeScript
+                - paragraph [ref=e192]: NextJS
+                - paragraph [ref=e193]: Appwrite
+                - paragraph [ref=e194]: TailwindCSS
+                - paragraph [ref=e195]: Advanced forms
+              - link [ref=e196] [cursor=pointer]:
+                - /url: /work/nextcut
+                - img [ref=e197]
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - img [ref=e202]
+        - img [ref=e204]
+        - img [ref=e206]
+        - img [ref=e208]
+        - img [ref=e210]
+      - paragraph [ref=e213]: “Working with Andrija was a very smooth experience from start to finish. He not only brings strong technical skills to front-end development, but his attention to detail and commitment to delivering pixel-perfect designs made a huge difference in our project. He is enthusiastic in suggesting improvements. Always ready to answer questions or provide updates. If you're looking for a reliable developer who brings creativity and efficiency to the table, Andrija is the right person!”
+      - generic [ref=e214]:
+        - img "avatar" [ref=e216]
+        - generic [ref=e217]:
+          - heading "Alex Finn" [level=3] [ref=e218]
+          - paragraph [ref=e219]: Lead Web Designer at knots.io
+      - generic [ref=e220]:
+        - button [ref=e221] [cursor=pointer]
+        - button [ref=e222] [cursor=pointer]
+        - button [ref=e223] [cursor=pointer]
+        - button [ref=e224] [cursor=pointer]
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - heading "Like what you see? Reach out via email to collaborate!" [level=1] [ref=e228]:
+            - text: Like what you see? Reach out
+            - link "via email" [ref=e229] [cursor=pointer]:
+              - /url: mailto:andrijawebd@gmail.com
+            - text: to collaborate!
+          - button "Schedule call" [ref=e230] [cursor=pointer]:
+            - link "Schedule call" [ref=e231]:
+              - /url: mailto:andrijawebd@gmail.com
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - heading "Andrija Djordjevic" [level=3] [ref=e234]
+            - paragraph [ref=e235]: © 2025 | All rights reserved.
+          - generic [ref=e236]:
+            - list [ref=e237]:
+              - listitem [ref=e238]: Navigate
+              - listitem [ref=e239]:
+                - link "Home" [ref=e240] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e241]:
+                - link "Work" [ref=e242] [cursor=pointer]:
+                  - /url: "#work"
+              - listitem [ref=e243]:
+                - link "About" [ref=e244] [cursor=pointer]:
+                  - /url: "#about"
+              - listitem [ref=e245]:
+                - link "Contact" [ref=e246] [cursor=pointer]:
+                  - /url: "#contact"
+            - list [ref=e247]:
+              - listitem [ref=e248]: Projects
+              - listitem [ref=e249]:
+                - link "Shoptidy" [ref=e250] [cursor=pointer]:
+                  - /url: /work/shoptidy
+              - listitem [ref=e251]:
+                - link "ExpenseTracker" [ref=e252] [cursor=pointer]:
+                  - /url: /work/exptracker
+              - listitem [ref=e253]:
+                - link "SocialSphere" [ref=e254] [cursor=pointer]:
+                  - /url: /work/socialsphere
+              - listitem [ref=e255]:
+                - link "NextCut" [ref=e256] [cursor=pointer]:
+                  - /url: /work/nextcut
+            - list [ref=e257]:
+              - listitem [ref=e258]: Socials
+              - listitem [ref=e259]:
+                - link "LinkedIn" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/andrija-djordjevic-a7b794282/
+              - listitem [ref=e261]:
+                - link "Github" [ref=e262] [cursor=pointer]:
+                  - /url: https://github.com/andrijaweb
+      - generic [ref=e263]:
+        - img

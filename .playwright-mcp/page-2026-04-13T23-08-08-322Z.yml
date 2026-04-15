@@ -1,0 +1,404 @@
+- generic [active] [ref=e1]:
+  - region "Notifications alt+T"
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+      - navigation [ref=e11]:
+        - list [ref=e12]:
+          - listitem:
+            - generic:
+              - link "Home":
+                - /url: /
+                - text: Home
+          - listitem:
+            - generic:
+              - link "About":
+                - /url: /about
+          - listitem:
+            - generic:
+              - link "Projects":
+                - /url: /projects
+          - listitem:
+            - generic:
+              - link "Blog":
+                - /url: /blog
+          - listitem:
+            - generic:
+              - link "Contact":
+                - /url: /contact
+      - link "Let's talk hello" [ref=e15] [cursor=pointer]:
+        - /url: https://cal.com/sahilverma.dev
+        - generic [ref=e16]: Let's talk
+        - img "hello" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - heading "Jai hind dosto 🫡" [level=3] [ref=e23]
+          - generic [ref=e24]:
+            - heading "Sahil Verma" [level=1] [ref=e25]
+            - paragraph [ref=e26]:
+              - img [ref=e27]
+              - text: saa-hil ver-maa
+          - heading "Fullstack developer from India 🇮🇳" [level=3] [ref=e29]
+          - generic [ref=e30]:
+            - link "Contact Me" [ref=e31] [cursor=pointer]:
+              - /url: /contact
+            - link "Download Resume" [ref=e32] [cursor=pointer]:
+              - /url: resume.pdf
+        - img "Sahil Verma" [ref=e35]
+      - generic [ref=e36]:
+        - heading "About me" [level=2] [ref=e37]
+        - paragraph [ref=e38]: Hi, I'm Sahil Verma! I'm a passionate developer with a love for turning ideas into digital experiences. With a focus on clean code and creative solutions, I enjoy building projects that solve real-world problems. When I'm not coding, I'm exploring new technologies, learning, and sharing my journey through blog posts. Join me as I explore the intersection of tech and creativity!
+      - generic [ref=e39]:
+        - heading "Skills" [level=2] [ref=e40]
+        - paragraph [ref=e41]: "I specialize in building seamless, user-friendly applications using modern web technologies. My toolkit includes:"
+        - generic [ref=e43]:
+          - generic [ref=e45]:
+            - heading "Languages" [level=3] [ref=e46]
+            - generic [ref=e47]:
+              - generic [ref=e49]: HTML
+              - generic [ref=e51]: CSS
+              - generic [ref=e53]: JavaScript
+              - generic [ref=e55]: TypeScript
+              - generic [ref=e57]: Python
+              - generic [ref=e59]: Dart
+          - generic [ref=e61]:
+            - heading "Frontend Frameworks" [level=3] [ref=e62]
+            - generic [ref=e63]:
+              - generic [ref=e65]: React JS
+              - generic [ref=e67]: Next.js
+          - generic [ref=e69]:
+            - heading "React Ecosystems" [level=3] [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e73]: React Testing Library
+              - generic [ref=e75]: Framer Motion
+              - generic [ref=e77]: Motion
+              - generic [ref=e79]: Jest
+              - generic [ref=e81]: React Router Dom
+              - generic [ref=e83]: Tanstack Query
+              - generic [ref=e85]: Zustand
+              - generic [ref=e87]: Redux
+              - generic [ref=e89]: Axios
+              - generic [ref=e91]: React Hook Form
+              - generic [ref=e93]: Radix UI
+              - generic [ref=e95]: Headless UI
+              - generic [ref=e97]: Zod
+          - generic [ref=e99]:
+            - heading "Components Libraries" [level=3] [ref=e100]
+            - generic [ref=e101]:
+              - generic [ref=e103]: Shadcn UI
+              - generic [ref=e105]: Material UI
+              - generic [ref=e107]: Mantine UI
+              - generic [ref=e109]: Chakra UI
+              - generic [ref=e111]: React Native Paper
+              - generic [ref=e113]: Tama GUI
+          - generic [ref=e115]:
+            - heading "CSS Styling" [level=3] [ref=e116]
+            - generic [ref=e117]:
+              - generic [ref=e119]: Tailwind CSS
+              - generic [ref=e121]: Emotion
+              - generic [ref=e123]: Styled Components
+              - generic [ref=e125]: CSS Modules
+              - generic [ref=e127]: SASS
+              - generic [ref=e129]: Bootstrap
+          - generic [ref=e131]:
+            - heading "Cross-Platform" [level=3] [ref=e132]
+            - generic [ref=e133]:
+              - generic [ref=e135]: React Native
+              - generic [ref=e137]: Expo
+              - generic [ref=e139]: Flutter
+          - generic [ref=e141]:
+            - heading "Backend" [level=3] [ref=e142]
+            - generic [ref=e143]:
+              - generic [ref=e145]: Node.js
+              - generic [ref=e147]: Bun
+              - generic [ref=e149]: Socket.io
+              - generic [ref=e151]: Express.js
+              - generic [ref=e153]: Mongoose
+              - generic [ref=e155]: Prisma
+              - generic [ref=e157]: Drizzle
+          - generic [ref=e159]:
+            - heading "Databases/BASS/CMS" [level=3] [ref=e160]
+            - generic [ref=e161]:
+              - generic [ref=e163]: MongoDB
+              - generic [ref=e165]: PostgreSQL
+              - generic [ref=e167]: SQLite
+              - generic [ref=e169]: Redis
+              - generic [ref=e171]: Firebase/Firestore
+              - generic [ref=e173]: Supabase
+              - generic [ref=e175]: Appwrite
+              - generic [ref=e177]: Sanity.IO
+              - generic [ref=e179]: Payload CMS
+          - generic [ref=e181]:
+            - heading "Other Technologies" [level=3] [ref=e182]
+            - generic [ref=e183]:
+              - generic [ref=e185]: WebRTC
+              - generic [ref=e187]: WebSockets
+              - generic [ref=e189]: Socket.io
+              - generic [ref=e191]: Cloudinary
+              - generic [ref=e193]: Vercel
+              - generic [ref=e195]: Netlify
+          - generic [ref=e197]:
+            - heading "Other Tools" [level=3] [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e201]: VS Code
+              - generic [ref=e203]: Git
+              - generic [ref=e205]: GitHub
+              - generic [ref=e207]: Eslint
+              - generic [ref=e209]: Figma
+      - generic [ref=e210]:
+        - heading "Projects" [level=2] [ref=e211]
+        - paragraph [ref=e212]: Here are some of the projects I've worked on, showcasing my skills in web development, problem-solving, and creativity.
+        - generic [ref=e213]:
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - generic [ref=e217]: extension
+              - generic [ref=e218]:
+                - link [ref=e219] [cursor=pointer]:
+                  - /url: https://chromewebstore.google.com/detail/leetcode-helper-bot/pnplpijgjhkfcbkpbpemoaijflgapfnc
+                  - img [ref=e220]
+                - link [ref=e223] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/leetcode-helper-extension?tab=readme-ov-file#about-the-project
+                  - img [ref=e224]
+              - link "Leetcode helper bot" [ref=e226] [cursor=pointer]:
+                - /url: /projects/leetcode-helper-extension
+                - img "Leetcode helper bot" [ref=e228]
+            - generic [ref=e229]:
+              - link "Leetcode helper bot" [ref=e230] [cursor=pointer]:
+                - /url: /projects/leetcode-helper-extension
+                - heading "Leetcode helper bot" [level=3] [ref=e231]
+              - time [ref=e232]: December 5, 2024
+              - paragraph [ref=e234]: A browser extension designed to assist users in solving LeetCode problems by providing real-time information and tools.
+            - generic [ref=e235]:
+              - generic [ref=e236]: framer motion
+              - generic [ref=e237]: react
+              - generic [ref=e238]: typescript
+              - generic [ref=e239]: tailwind
+              - generic [ref=e240]: vercel ai sdk
+          - generic [ref=e242]:
+            - generic [ref=e243]:
+              - generic [ref=e244]: mobile
+              - generic [ref=e245]:
+                - link [ref=e246] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/classy-notes
+                  - img [ref=e247]
+                - link [ref=e250] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/classy-notes
+                  - img [ref=e251]
+              - link "Classy Notes" [ref=e253] [cursor=pointer]:
+                - /url: /projects/classy-notes
+                - img "Classy Notes" [ref=e255]
+            - generic [ref=e256]:
+              - link "Classy Notes" [ref=e257] [cursor=pointer]:
+                - /url: /projects/classy-notes
+                - heading "Classy Notes" [level=3] [ref=e258]
+              - time [ref=e259]: August 3, 2023
+              - paragraph [ref=e261]: A beautiful note taking mobile app built with React Native, Lottie Animations, Typescript, React Query and Firebase.
+            - generic [ref=e262]:
+              - generic [ref=e263]: react native
+              - generic [ref=e264]: typescript
+              - generic [ref=e265]: tailwind
+              - generic [ref=e266]: firebase
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - generic [ref=e270]: mobile
+              - generic [ref=e271]:
+                - link [ref=e272] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/reddit-wallpaper-react-native/blob/master/download.apk
+                  - img [ref=e273]
+                - link [ref=e276] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/reddit-wallpaper-react-native
+                  - img [ref=e277]
+              - link "Reddit Wallpaper" [ref=e279] [cursor=pointer]:
+                - /url: /projects/reddit-wallpaper
+                - img "Reddit Wallpaper" [ref=e281]
+            - generic [ref=e282]:
+              - link "Reddit Wallpaper" [ref=e283] [cursor=pointer]:
+                - /url: /projects/reddit-wallpaper
+                - heading "Reddit Wallpaper" [level=3] [ref=e284]
+              - time [ref=e285]: June 9, 2023
+              - paragraph [ref=e287]: Reddit Wallpapers a stunning mobile wallpaper app built with React Native in Expo.
+            - generic [ref=e288]:
+              - generic [ref=e289]: react native
+              - generic [ref=e290]: typescript
+              - generic [ref=e291]: tailwind
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - generic [ref=e295]: package
+              - generic [ref=e296]:
+                - link [ref=e297] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/classy-notes
+                  - img [ref=e298]
+                - link [ref=e301] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/classy-notes
+                  - img [ref=e302]
+              - link "Imgbb Image Uploader" [ref=e304] [cursor=pointer]:
+                - /url: /projects/imgbb-image-uploader
+                - img "Imgbb Image Uploader" [ref=e306]
+            - generic [ref=e307]:
+              - link "Imgbb Image Uploader" [ref=e308] [cursor=pointer]:
+                - /url: /projects/imgbb-image-uploader
+                - heading "Imgbb Image Uploader" [level=3] [ref=e309]
+              - time [ref=e310]: April 27, 2023
+              - paragraph [ref=e312]: imgbb-image-uploader is a lightweight Node.js library for uploading images to the ImgBB API. It provides a simple and easy-to-use interface for uploading images and retrieving their URLs.
+            - generic [ref=e314]: typescript
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e318]: web
+              - generic [ref=e319]:
+                - link [ref=e320] [cursor=pointer]:
+                  - /url: https://todoist-firebase.vercel.app/
+                  - img [ref=e321]
+                - link [ref=e324] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/todoist-firebase
+                  - img [ref=e325]
+              - link "Todoist Firebase" [ref=e327] [cursor=pointer]:
+                - /url: /projects/todoist-firebase
+                - img "Todoist Firebase" [ref=e329]
+            - generic [ref=e330]:
+              - link "Todoist Firebase" [ref=e331] [cursor=pointer]:
+                - /url: /projects/todoist-firebase
+                - heading "Todoist Firebase" [level=3] [ref=e332]
+              - time [ref=e333]: February 14, 2023
+              - paragraph [ref=e335]: It is a web app built with React and Firebase. It is a clone of Todoist app. It is a web app built with React and Firebase. It is a clone of Todoist app.
+            - generic [ref=e336]:
+              - generic [ref=e337]: react
+              - generic [ref=e338]: framer motion
+              - generic [ref=e339]: typescript
+              - generic [ref=e340]: tailwind
+              - generic [ref=e341]: firebase
+          - generic [ref=e343]:
+            - generic [ref=e344]:
+              - generic [ref=e345]: web
+              - generic [ref=e346]:
+                - link [ref=e347] [cursor=pointer]:
+                  - /url: https://tekoy.vercel.app/
+                  - img [ref=e348]
+                - link [ref=e351] [cursor=pointer]:
+                  - /url: https://github.com/sahilverma-dev/tekoy
+                  - img [ref=e352]
+              - link "Tekoy" [ref=e354] [cursor=pointer]:
+                - /url: /projects/tekoy
+                - img "Tekoy" [ref=e356]
+            - generic [ref=e357]:
+              - link "Tekoy" [ref=e358] [cursor=pointer]:
+                - /url: /projects/tekoy
+                - heading "Tekoy" [level=3] [ref=e359]
+              - time [ref=e360]: February 14, 2023
+              - paragraph [ref=e362]: It is a public group chat and discussion app inspired by Twitter Space, Club House, Reddit Talk, and Discord Chat. In this web-app users can participate and host public/private rooms for chatting/discussion.
+            - generic [ref=e363]:
+              - generic [ref=e364]: react
+              - generic [ref=e365]: typescript
+              - generic [ref=e366]: tailwind
+              - generic [ref=e367]: nodejs
+              - generic [ref=e368]: express
+              - generic [ref=e369]: mongodb
+        - link "More Projects" [ref=e371] [cursor=pointer]:
+          - /url: /projects
+      - generic [ref=e372]:
+        - heading "Blogs" [level=2] [ref=e373]
+        - paragraph [ref=e374]: Welcome to my blog, a place where creativity and technology come to life. Here, I share my journey through coding, problem-solving, and the stories behind the projects I create.
+        - generic [ref=e375]:
+          - article [ref=e377]:
+            - img "Learn basic animation for React with motion" [ref=e380]
+            - generic [ref=e382]:
+              - generic [ref=e383]:
+                - time [ref=e384]:
+                  - time [ref=e385]: December 30, 2024
+                - link "Blog" [ref=e386] [cursor=pointer]:
+                  - /url: /blog/motion-crash-course
+                  - generic [ref=e387]: Blog
+              - generic [ref=e388]:
+                - link "Learn basic animation for React with motion" [ref=e390] [cursor=pointer]:
+                  - /url: /blog/motion-crash-course
+                  - text: Learn basic animation for React with motion
+                - paragraph [ref=e393]: Learn how to create animations in React with Motion, formerly called Framer Motion, for smooth and easy transitions.
+          - article [ref=e395]:
+            - img "Why Do Developers Make Portfolios?" [ref=e398]
+            - generic [ref=e400]:
+              - generic [ref=e401]:
+                - time [ref=e402]:
+                  - time [ref=e403]: December 20, 2024
+                - link "Blog" [ref=e404] [cursor=pointer]:
+                  - /url: /blog/why-do-developer-make-portfolio
+                  - generic [ref=e405]: Blog
+              - generic [ref=e406]:
+                - link "Why Do Developers Make Portfolios?" [ref=e408] [cursor=pointer]:
+                  - /url: /blog/why-do-developer-make-portfolio
+                  - text: Why Do Developers Make Portfolios?
+                - paragraph [ref=e411]: A developer’s portfolio showcases real projects, demonstrates problem-solving skills, and highlights creativity, setting them apart beyond a resume.
+          - article [ref=e413]:
+            - img "Introduction to Testing in React JS with Typescript" [ref=e416]
+            - generic [ref=e418]:
+              - generic [ref=e419]:
+                - time [ref=e420]:
+                  - time [ref=e421]: December 8, 2024
+                - link "Blog" [ref=e422] [cursor=pointer]:
+                  - /url: /blog/react-testing
+                  - generic [ref=e423]: Blog
+              - generic [ref=e424]:
+                - link "Introduction to Testing in React JS with Typescript" [ref=e426] [cursor=pointer]:
+                  - /url: /blog/react-testing
+                  - text: Introduction to Testing in React JS with Typescript
+                - paragraph [ref=e429]: Introduction to testing in React JS with TypeScript involves using tools like Jest and Testing Library to ensure robust, error-free code.
+          - article [ref=e431]:
+            - 'img "Firebase with React and TypeScript: A Comprehensive Guide" [ref=e434]'
+            - generic [ref=e436]:
+              - generic [ref=e437]:
+                - time [ref=e438]:
+                  - time [ref=e439]: August 3, 2024
+                - link "Blog" [ref=e440] [cursor=pointer]:
+                  - /url: /blog/firebase-with-react-and-typescript-a-comprehensive-guide
+                  - generic [ref=e441]: Blog
+              - generic [ref=e442]:
+                - 'link "Firebase with React and TypeScript: A Comprehensive Guide" [ref=e444] [cursor=pointer]':
+                  - /url: /blog/firebase-with-react-and-typescript-a-comprehensive-guide
+                  - text: "Firebase with React and TypeScript: A Comprehensive Guide"
+                - paragraph [ref=e447]: Firebase with React and TypeScript enables building scalable apps by integrating Firebase's backend services with React components, ensuring type safety.
+          - article [ref=e449]:
+            - img "React Query Cheat Sheet" [ref=e452]
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - time [ref=e456]:
+                  - time [ref=e457]: April 8, 2023
+                - link "Blog" [ref=e458] [cursor=pointer]:
+                  - /url: /blog/react-query-cheat-sheet
+                  - generic [ref=e459]: Blog
+              - generic [ref=e460]:
+                - link "React Query Cheat Sheet" [ref=e462] [cursor=pointer]:
+                  - /url: /blog/react-query-cheat-sheet
+                  - text: React Query Cheat Sheet
+                - paragraph [ref=e465]: React Query is a powerful data-fetching and state management library for React applications. It simplifies the process of working with remote data and caching.
+        - link "Read more blogs" [ref=e467] [cursor=pointer]:
+          - /url: /blog
+  - contentinfo [ref=e469]:
+    - generic [ref=e470]:
+      - link "Sahil Verma" [ref=e472] [cursor=pointer]:
+        - /url: /
+        - img [ref=e473]
+        - paragraph [ref=e476]: Sahil Verma
+      - generic [ref=e477]:
+        - link "Follow me on Discord" [ref=e478] [cursor=pointer]:
+          - /url: https://discord.com/users/669542427454996490
+          - img [ref=e479]
+        - link "Follow me on LinkedIn" [ref=e481] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/sahil-verma-970b9920a/
+          - img [ref=e482]
+        - link "Follow me on GitHub" [ref=e484] [cursor=pointer]:
+          - /url: https://github.com/sahilverma-dev
+          - img [ref=e485]
+        - link "Follow me on Twitter 𝕏" [ref=e487] [cursor=pointer]:
+          - /url: https://www.twitter.com/sahilverma_dev/
+          - img [ref=e488]
+        - link "Follow me on Instagram" [ref=e490] [cursor=pointer]:
+          - /url: https://www.instagram.com/sahilverma.dev/
+          - img [ref=e491]
+      - generic [ref=e493]:
+        - text: Made with ❤️ by
+        - link "Sahil Verma" [ref=e494] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/sahil-verma-970b9920a/
+        - text: .
+  - alert [ref=e495]

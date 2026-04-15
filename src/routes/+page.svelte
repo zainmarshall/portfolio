@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { base } from "$app/paths";
 	import { projects } from "$lib/projects";
-	import { onMount } from "svelte";
-
 	const email = 'zainmarshall1000@gmail.com';
 
 	type Tech = { name: string; color: string; plain: string; original: string };
@@ -15,7 +13,6 @@
 				{ name: 'Java', color: '#007396', plain: '/images/logos/java-plain.svg', original: '/images/logos/java-original.svg' },
 				{ name: 'Python', color: '#3776AB', plain: '/images/logos/python-plain.svg', original: '/images/logos/python-original.svg' },
 				{ name: 'TypeScript', color: '#3178c6', plain: '/images/logos/typescript-plain.svg', original: '/images/logos/typescript-original.svg' },
-				{ name: 'JavaScript', color: '#f7df1e', plain: '/images/logos/javascript-plain.svg', original: '/images/logos/javascript-original.svg' },
 			]
 		},
 		{
@@ -34,24 +31,6 @@
 			]
 		},
 	];
-
-	onMount(() => {
-		const observer = new IntersectionObserver(
-			(entries) => {
-				for (const entry of entries) {
-					if (entry.isIntersecting) {
-						entry.target.classList.add('visible');
-						observer.unobserve(entry.target);
-					}
-				}
-			},
-			{ threshold: 0.1 }
-		);
-
-		document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
-
-		return () => observer.disconnect();
-	});
 </script>
 
 <svelte:head>
@@ -114,7 +93,7 @@
 	</section>
 
 	<!-- About -->
-	<section class="fade-in mb-16">
+	<section class="mb-16">
 		<h2 class="text-xl font-bold text-heading mb-4">About</h2>
 		<p>
 			I'm a 16-year-old developer at Thomas Jefferson High School for Science and Technology.
@@ -124,7 +103,7 @@
 	</section>
 
 	<!-- Competitive Programming -->
-	<section class="fade-in mb-16">
+	<section class="mb-16">
 		<h2 class="text-xl font-bold text-heading mb-4">Competitive Programming</h2>
 		<p>
 			USACO Gold &middot; Codeforces Expert
@@ -132,7 +111,7 @@
 	</section>
 
 	<!-- Technologies -->
-	<section class="fade-in mb-16">
+	<section class="mb-16">
 		<h2 class="text-xl font-bold text-heading mb-6">Technologies</h2>
 		{#each techStrips as strip}
 			<div class="mb-4">
@@ -157,7 +136,7 @@
 	</section>
 
 	<!-- Education -->
-	<section class="fade-in mb-16">
+	<section class="mb-16">
 		<h2 class="text-xl font-bold text-heading mb-4">Education</h2>
 		<div>
 			<h3 class="font-semibold text-heading">Thomas Jefferson High School for Science and Technology</h3>
@@ -169,7 +148,7 @@
 	</section>
 
 	<!-- Projects -->
-	<section class="fade-in mb-16">
+	<section class="mb-16">
 		<h2 class="text-xl font-bold text-heading mb-6">Projects</h2>
 
 		<div class="space-y-4">
@@ -193,7 +172,7 @@
 	</section>
 
 	<!-- Contact -->
-	<section class="fade-in">
+	<section>
 		<h2 class="text-xl font-bold text-heading mb-4">Contact</h2>
 		<p class="mb-3">
 			<a href="mailto:{email}" class="text-accent hover:text-accent-hover transition-colors">{email}</a>
@@ -208,17 +187,6 @@
 </div>
 
 <style>
-	:global(.fade-in) {
-		opacity: 0;
-		transform: translateY(10px);
-		transition: opacity 0.5s ease, transform 0.5s ease;
-	}
-
-	:global(.fade-in.visible) {
-		opacity: 1;
-		transform: translateY(0);
-	}
-
 	.tech-pill {
 		display: inline-flex;
 		align-items: center;
@@ -228,14 +196,12 @@
 		height: 44px;
 		min-width: 110px;
 		box-sizing: border-box;
-		transition: box-shadow 0.18s, transform 0.12s, border-color 0.18s;
+		transition: border-color 0.15s;
 		cursor: default;
 	}
 
 	.tech-pill:hover {
-		transform: translateY(-2px);
-		border-color: var(--accent);
-		box-shadow: 0 8px 24px -10px var(--accent);
+		border-color: var(--color-muted);
 	}
 
 	.logo-stack {
@@ -251,11 +217,11 @@
 		top: 0;
 		width: 26px;
 		height: 26px;
-		transition: opacity 0.18s ease;
+		transition: opacity 0.15s ease;
 	}
 
 	.logo-plain {
-		filter: brightness(0) invert(0.7);
+		filter: brightness(0) invert(0.4);
 		opacity: 1;
 	}
 
@@ -273,9 +239,9 @@
 
 	.tech-label {
 		color: var(--color-muted);
-		font-weight: 600;
+		font-weight: 500;
 		font-size: 13px;
-		transition: color 0.18s;
+		transition: color 0.15s;
 	}
 
 	.tech-pill:hover .tech-label {

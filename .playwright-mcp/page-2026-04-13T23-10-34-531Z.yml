@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "home" [ref=e7] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e8]:
+          - link "projects" [ref=e9] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=e10]:
+          - link "blog" [ref=e11] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e12]:
+          - link "contact" [ref=e13] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e14]:
+        - button "Chat Toggle" [ref=e15] [cursor=pointer]:
+          - img
+          - generic [ref=e16]: Chat Toggle
+        - button "Theme Toggle" [ref=e17] [cursor=pointer]:
+          - img
+          - generic [ref=e18]: Theme Toggle
+  - main [ref=e20]:
+    - article [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e27]:
+          - generic:
+            - img "Photo of Ted"
+        - generic [ref=e28]:
+          - heading "hi ted here. 👋" [level=1] [ref=e29]
+          - paragraph [ref=e30]: 29yo software engineer from Singapore 🇸🇬
+          - paragraph [ref=e31]: Backend by profession, full-stack by passion. I build and self-host the lot.
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: For Q&A, start a chat with Ted Support
+            - img [ref=e34]
+          - paragraph [ref=e37]:
+            - text: For any escalations, please find my
+            - link "Ted Lead" [ref=e38] [cursor=pointer]:
+              - /url: https://www.instagram.com/gomugomu.cat
+            - text: instead.
+          - generic [ref=e39]:
+            - link "Resume" [ref=e40] [cursor=pointer]:
+              - /url: /resume.pdf
+              - button "Resume" [ref=e41]:
+                - generic [ref=e42]: Resume
+                - img
+            - generic [ref=e43]:
+              - link "LinkedIn" [ref=e44] [cursor=pointer]:
+                - /url: https://linkedin.com/in/tedawf
+                - generic [ref=e45]: LinkedIn
+                - img [ref=e46]
+              - link "GitHub" [ref=e50] [cursor=pointer]:
+                - /url: https://github.com/tedawf
+                - generic [ref=e51]: GitHub
+                - img [ref=e52]
+              - link "Email" [ref=e55] [cursor=pointer]:
+                - /url: mailto:hello@tedawf.com
+                - generic [ref=e56]: Email
+                - img [ref=e57]
+      - generic [ref=e60]:
+        - tablist [ref=e61]:
+          - tab "Work" [selected] [ref=e62] [cursor=pointer]
+          - tab "Education" [ref=e63] [cursor=pointer]
+        - tabpanel "Work" [ref=e64]:
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - link "DBS Bank" [ref=e69] [cursor=pointer]:
+                - /url: https://www.dbs.com.sg
+                - img "DBS Bank" [ref=e71]
+              - generic [ref=e72]:
+                - link "DBS Bank" [ref=e73] [cursor=pointer]:
+                  - /url: https://www.dbs.com.sg
+                  - heading "DBS Bank" [level=2] [ref=e74]
+                - generic [ref=e75]:
+                  - generic [ref=e76]:
+                    - generic [ref=e77]:
+                      - paragraph [ref=e78]: Associate
+                      - time [ref=e79]: Jul 2025 - Present
+                    - list [ref=e80]:
+                      - listitem [ref=e81]: Building Java, Spring Boot, and Activiti services for current and savings account servicing business processes; raised JUnit coverage above 80% and led a team knowledge base project.
+                  - generic [ref=e82]:
+                    - generic [ref=e83]:
+                      - paragraph [ref=e84]: Graduate Associate (SEED Programme)
+                      - time [ref=e85]: Jul 2023 - Jun 2025
+                    - list [ref=e86]:
+                      - listitem [ref=e87]: Built a Python and SQL automation tool to migrate and configure over 1,000 configuration variants of a process-tracking workflow from a vendor platform into an in-house Spring Boot and Activiti application (MariaDB), reducing per-configuration setup from 1-2 hours to under 5 minutes.
+                      - listitem [ref=e88]: Developed backend services in Java, Spring Boot, and Activiti and collaborated across teams on end-to-end delivery.
+            - listitem [ref=e89]:
+              - link "Singapore Institute of Technology" [ref=e90] [cursor=pointer]:
+                - /url: https://www.singaporetech.edu.sg
+                - img "Singapore Institute of Technology" [ref=e92]
+              - generic [ref=e93]:
+                - link "Singapore Institute of Technology" [ref=e94] [cursor=pointer]:
+                  - /url: https://www.singaporetech.edu.sg
+                  - heading "Singapore Institute of Technology" [level=2] [ref=e95]
+                - generic [ref=e97]:
+                  - generic [ref=e98]:
+                    - paragraph [ref=e99]: Software Developer (Contract)
+                    - time [ref=e100]: Apr 2023 - Jun 2023
+                  - list [ref=e101]:
+                    - listitem [ref=e102]: Built NFTVue, a NFT gallery website that allows students to connect their crypto wallets to view and verify their school event-issued NFTs
+                    - listitem [ref=e103]: Worked on DemoConstruct, a full-stack web application (React + Python) that uses Meshroom to reconstruct 3D models from captured images
+                  - link "NFTVue" [ref=e105] [cursor=pointer]:
+                    - /url: https://nftvue.vercel.app
+                    - generic "NFTVue" [ref=e106]:
+                      - img [ref=e107]
+                      - text: NFTVue
+            - listitem [ref=e110]:
+              - link "DBS Bank" [ref=e111] [cursor=pointer]:
+                - /url: https://www.dbs.com.sg
+                - img "DBS Bank" [ref=e113]
+              - generic [ref=e114]:
+                - link "DBS Bank" [ref=e115] [cursor=pointer]:
+                  - /url: https://www.dbs.com.sg
+                  - heading "DBS Bank" [level=2] [ref=e116]
+                - generic [ref=e118]:
+                  - generic [ref=e119]:
+                    - paragraph [ref=e120]: Software Developer (Intern)
+                    - time [ref=e121]: May 2022 - Dec 2022
+                  - list [ref=e122]:
+                    - listitem [ref=e123]: Worked on the backend for the digital exchange and asset custody application using Spring Boot and Java
+                    - listitem [ref=e124]: Built an admin dashboard web application for a DBS Metaverse event using Spring Security and Angular
+            - listitem [ref=e125]:
+              - link "Activate Interactive Pte Ltd" [ref=e126] [cursor=pointer]:
+                - /url: https://www.activate.sg
+                - img "Activate Interactive Pte Ltd" [ref=e128]
+              - generic [ref=e129]:
+                - link "Activate Interactive Pte Ltd" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.activate.sg
+                  - heading "Activate Interactive Pte Ltd" [level=2] [ref=e131]
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - paragraph [ref=e135]: Software Developer (Intern)
+                    - time [ref=e136]: May 2019 - Aug 2019
+                  - list [ref=e137]:
+                    - listitem [ref=e138]: Developed RP Connect, the iOS and Android mobile app for Republic Polytechnic using React Native
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - heading "featured projects" [level=2] [ref=e141]
+          - link "view more" [ref=e142] [cursor=pointer]:
+            - /url: /projects
+            - generic [ref=e143]: view more
+            - img [ref=e144]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - link "TT4D" [ref=e149] [cursor=pointer]:
+              - /url: /img/tt4d.png
+              - img "TT4D" [ref=e151]
+            - generic [ref=e152]:
+              - heading "TT4D" [level=3] [ref=e153]
+              - paragraph [ref=e155]: Generate winning combinations, view past results, and analyze lottery trends all in one place
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - generic [ref=e158]: BS4
+                - generic [ref=e159]: Docker
+                - generic [ref=e160]: FastAPI
+                - generic [ref=e161]: Fly.io
+                - generic [ref=e162]: NextJS
+                - generic [ref=e163]: PostgreSQL
+                - generic [ref=e164]: Python
+                - generic [ref=e165]: TailwindCSS
+              - generic [ref=e166]:
+                - link "Website" [ref=e167] [cursor=pointer]:
+                  - /url: https://huatnumbers.com
+                  - generic [ref=e168]:
+                    - img [ref=e169]
+                    - text: Website
+                - link "Source" [ref=e172] [cursor=pointer]:
+                  - /url: https://github.com/tedawf/tt4d
+                  - generic [ref=e173]:
+                    - img [ref=e174]
+                    - text: Source
+                - link "Source (UI)" [ref=e177] [cursor=pointer]:
+                  - /url: https://github.com/tedawf/tt4d-web
+                  - generic [ref=e178]:
+                    - img [ref=e179]
+                    - text: Source (UI)
+          - generic [ref=e182]:
+            - link "Tradingview Telegram Alerts" [ref=e184] [cursor=pointer]:
+              - /url: /img/tv-tele-alerts.png
+              - img "Tradingview Telegram Alerts" [ref=e186]
+            - generic [ref=e187]:
+              - heading "Tradingview Telegram Alerts" [level=3] [ref=e188]
+              - paragraph [ref=e190]: Real-time trading alerts with chart snapshots sent to Telegram, designed to keep traders informed and responsive to market changes
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e193]: Docker
+                - generic [ref=e194]: FastAPI
+                - generic [ref=e195]: Fly.io
+                - generic [ref=e196]: Python
+                - generic [ref=e197]: Selenium
+                - generic [ref=e198]: Telegram Bot API
+              - link "Source" [ref=e200] [cursor=pointer]:
+                - /url: https://github.com/tedawf/tradingview-telegram-alerts
+                - generic [ref=e201]:
+                  - img [ref=e202]
+                  - text: Source
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - heading "recent posts" [level=2] [ref=e207]
+          - link "view more" [ref=e208] [cursor=pointer]:
+            - /url: /blog
+            - generic [ref=e209]: view more
+            - img [ref=e210]
+        - list [ref=e213]:
+          - listitem [ref=e214]:
+            - link [ref=e215] [cursor=pointer]:
+              - /url: /blog/my-first-homelab
+              - article [ref=e216]:
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - 'heading "Christmas Special: When I got my First Homelab" [level=3] [ref=e220]'
+                    - paragraph [ref=e221]: This is the story of how cloud storage pricing pushed me into building a quiet, always-on homelab that now runs everything I care about.
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: Homelab
+                      - generic [ref=e224]: Self-hosting
+                      - generic [ref=e225]: Hardware
+                      - generic [ref=e226]: "+6"
+                  - generic [ref=e227]:
+                    - generic [ref=e228]:
+                      - img [ref=e229]
+                      - generic [ref=e231]: December 25, 2025
+                    - generic [ref=e232]:
+                      - img [ref=e233]
+                      - generic [ref=e236]: 6 min read
+                    - generic [ref=e237]:
+                      - img [ref=e238]
+                      - generic [ref=e241]: 527 views
+          - listitem [ref=e242]:
+            - link [ref=e243] [cursor=pointer]:
+              - /url: /blog/ted-tries-ai-tools
+              - article [ref=e244]:
+                - generic [ref=e245]:
+                  - generic [ref=e246]:
+                    - heading "My Quest for the Most Cost-Effective AI Tools" [level=3] [ref=e248]
+                    - paragraph [ref=e249]: A personal journey of testing and comparing free, cheap, and value-oriented AI tools to see if they can match my corporate setup.
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: Agentic AI
+                      - generic [ref=e252]: Developer-Tools
+                      - generic [ref=e253]: Coding Assistant
+                      - generic [ref=e254]: "+5"
+                  - generic [ref=e255]:
+                    - generic [ref=e256]:
+                      - img [ref=e257]
+                      - generic [ref=e259]: November 16, 2025
+                    - generic [ref=e260]:
+                      - img [ref=e261]
+                      - generic [ref=e264]: 7 min read
+                    - generic [ref=e265]:
+                      - img [ref=e266]
+                      - generic [ref=e269]: 542 views
+  - contentinfo [ref=e270]:
+    - generic [ref=e271]:
+      - generic [ref=e272]:
+        - link "LinkedIn" [ref=e273] [cursor=pointer]:
+          - /url: https://linkedin.com/in/tedawf
+          - generic [ref=e274]: LinkedIn
+          - img [ref=e275]
+        - link "GitHub" [ref=e279] [cursor=pointer]:
+          - /url: https://github.com/tedawf
+          - generic [ref=e280]: GitHub
+          - img [ref=e281]
+        - link "Email" [ref=e284] [cursor=pointer]:
+          - /url: mailto:hello@tedawf.com
+          - generic [ref=e285]: Email
+          - img [ref=e286]
+      - paragraph [ref=e290]:
+        - text: © 2026
+        - link "tedawf.com" [ref=e291] [cursor=pointer]:
+          - /url: /
+        - text: "|"
+        - link "privacy?" [ref=e292] [cursor=pointer]:
+          - /url: /privacy
+  - heading "Chat with Ted Support" [level=3] [ref=e294]:
+    - button "Chat with Ted Support" [ref=e295] [cursor=pointer]:
+      - generic [ref=e297]:
+        - paragraph [ref=e298]: Chat with
+        - paragraph [ref=e301]: Ted Support
+      - img [ref=e302]
+  - alert [ref=e304]

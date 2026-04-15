@@ -1,0 +1,354 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - img [ref=e7]
+    - generic [ref=e8]:
+      - link "Blogs" [ref=e9] [cursor=pointer]:
+        - /url: /blogs
+      - button [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+      - button [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+  - generic [ref=e21]:
+    - img [ref=e23]
+    - generic [ref=e24]:
+      - heading "Prasoon Mahawar" [level=2] [ref=e25]
+      - heading "Machine Learning Engineer • FullStack Engineer • F1 Enthusiast" [level=3] [ref=e26]
+      - generic [ref=e27]:
+        - button "Hire Icon Available for Hire" [ref=e28] [cursor=pointer]:
+          - img "Hire Icon" [ref=e29]
+          - generic [ref=e30]: Available for Hire
+        - generic [ref=e31]: or
+        - button "Email Icon Email Me" [ref=e32] [cursor=pointer]:
+          - img "Email Icon" [ref=e33]
+          - generic [ref=e34]: Email Me
+      - heading "Prefer to go beyond the minimal? Get to the fun side Experience the immersive portfolio." [level=4] [ref=e36]:
+        - text: Prefer to go beyond the minimal?
+        - button "Get to the fun side" [ref=e37] [cursor=pointer]:
+          - generic [ref=e39]: Get to the fun side
+        - text: Experience the immersive portfolio.
+      - generic [ref=e40]:
+        - link "Prasoon's Linkedin LinkedIn" [ref=e41] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/prasoonmahawar
+          - img "Prasoon's Linkedin" [ref=e42]
+          - generic [ref=e43]: LinkedIn
+        - link "Prasoon's Twitter Twitter" [ref=e44] [cursor=pointer]:
+          - /url: https://x.com/prasoonmahawar
+          - img "Prasoon's Twitter" [ref=e45]
+          - generic [ref=e46]: Twitter
+        - link "Prasoon's Github Github" [ref=e47] [cursor=pointer]:
+          - /url: https://www.github.com/prasoonmhwr
+          - img "Prasoon's Github" [ref=e48]
+          - generic [ref=e49]: Github
+        - link "Prasoon's Youtube Youtube" [ref=e50] [cursor=pointer]:
+          - /url: https://www.youtube.com/@prasoonmahawarYT
+          - img "Prasoon's Youtube" [ref=e51]
+          - generic [ref=e52]: Youtube
+        - link "Prasoon's Peerlist Peerlist" [ref=e53] [cursor=pointer]:
+          - /url: https://www.peerlist.io/prasoon21
+          - img "Prasoon's Peerlist" [ref=e54]
+          - generic [ref=e55]: Peerlist
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: So Far
+          - generic [ref=e61]: Career
+        - generic [ref=e62]:
+          - button [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+          - generic [ref=e65]:
+            - generic:
+              - img
+            - generic [ref=e66]: Hear me talk about it
+      - generic [ref=e67]:
+        - generic [ref=e68]: Need a copy?
+        - generic [ref=e69] [cursor=pointer]:
+          - img "Download Icon" [ref=e70]
+          - generic [ref=e71]: Resume
+    - generic [ref=e72]:
+      - generic [ref=e75]:
+        - img [ref=e76]
+        - generic:
+          - generic [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]:
+              - img "Liverpool John Moores University" [ref=e81]
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - heading "Liverpool John Moores University" [level=2] [ref=e84]
+                  - generic [ref=e85]:
+                    - link [ref=e86]:
+                      - /url: https://www.ljmu.ac.uk/
+                      - img [ref=e87]
+                    - link [ref=e89]:
+                      - /url: https://x.com/LJMU
+                      - img [ref=e90]
+                    - link [ref=e92]:
+                      - /url: https://www.linkedin.com/school/ljmu
+                      - img [ref=e93]
+                - paragraph [ref=e95]: Master of Science(MS) in AI&ML
+            - generic [ref=e96]:
+              - generic [ref=e97]: Jan 2023 - Jul 2025
+              - generic [ref=e98]: • Liverpool, UK (Remote)
+          - generic [ref=e100] [cursor=pointer]:
+            - img "Agilite" [ref=e101]
+            - heading "Agilite" [level=2] [ref=e104]
+          - generic [ref=e106] [cursor=pointer]:
+            - img "Maximl Labs" [ref=e107]
+            - heading "Maximl Labs" [level=2] [ref=e110]
+          - generic [ref=e112] [cursor=pointer]:
+            - img "Oracle Solution Services(India)" [ref=e113]
+            - heading "Oracle Solution Services(India)" [level=2] [ref=e116]
+          - generic [ref=e118] [cursor=pointer]:
+            - img "ASM Enterprise Solutions" [ref=e119]
+            - heading "ASM Enterprise Solutions" [level=2] [ref=e122]
+          - generic [ref=e124] [cursor=pointer]:
+            - img "Poornima College of Engineering" [ref=e125]
+            - heading "Poornima College of Engineering" [level=2] [ref=e128]
+      - region "video player" [ref=e132]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img
+            - button "play" [ref=e136] [cursor=pointer]:
+              - img [ref=e137]
+    - generic [ref=e140]:
+      - paragraph [ref=e141]: Core
+      - text: Skills
+      - generic [ref=e142]:
+        - link "JavaScript JavaScript" [ref=e143] [cursor=pointer]:
+          - /url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+          - img "JavaScript" [ref=e145]
+          - paragraph [ref=e146]: JavaScript
+        - link "TypeScript TypeScript" [ref=e147] [cursor=pointer]:
+          - /url: https://www.typescriptlang.org/
+          - img "TypeScript" [ref=e149]
+          - paragraph [ref=e150]: TypeScript
+        - link "Python Python" [ref=e151] [cursor=pointer]:
+          - /url: https://www.python.org/
+          - img "Python" [ref=e153]
+          - paragraph [ref=e154]: Python
+        - link "TailwindCSS TailwindCSS" [ref=e155] [cursor=pointer]:
+          - /url: https://tailwindcss.com/
+          - img "TailwindCSS" [ref=e157]
+          - paragraph [ref=e158]: TailwindCSS
+        - link "ReactJS ReactJS" [ref=e159] [cursor=pointer]:
+          - /url: https://react.dev/
+          - img "ReactJS" [ref=e161]
+          - paragraph [ref=e162]: ReactJS
+        - link "NextJS NextJS" [ref=e163] [cursor=pointer]:
+          - /url: https://nextjs.org/
+          - img "NextJS" [ref=e165]
+          - paragraph [ref=e166]: NextJS
+        - link "Postgresql Postgresql" [ref=e167] [cursor=pointer]:
+          - /url: https://www.postgresql.org/
+          - img "Postgresql" [ref=e169]
+          - paragraph [ref=e170]: Postgresql
+        - link "PrismaORM PrismaORM" [ref=e171] [cursor=pointer]:
+          - /url: https://www.prisma.io/
+          - img "PrismaORM" [ref=e173]
+          - paragraph [ref=e174]: PrismaORM
+        - link "Machine Learning Machine Learning" [ref=e175] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Machine_learning
+          - img "Machine Learning" [ref=e177]
+          - paragraph [ref=e178]: Machine Learning
+        - link "Deep Learning Deep Learning" [ref=e179] [cursor=pointer]:
+          - /url: https://en.wikipedia.org/wiki/Deep_learning
+          - img "Deep Learning" [ref=e181]
+          - paragraph [ref=e182]: Deep Learning
+        - link "PyTorch PyTorch" [ref=e183] [cursor=pointer]:
+          - /url: https://pytorch.org/
+          - img "PyTorch" [ref=e185]
+          - paragraph [ref=e186]: PyTorch
+        - link "Numpy Numpy" [ref=e187] [cursor=pointer]:
+          - /url: https://numpy.org/
+          - img "Numpy" [ref=e189]
+          - paragraph [ref=e190]: Numpy
+        - link "Pandas Pandas" [ref=e191] [cursor=pointer]:
+          - /url: https://pandas.pydata.org/
+          - img "Pandas" [ref=e193]
+          - paragraph [ref=e194]: Pandas
+        - link "ThreeJS ThreeJS" [ref=e195] [cursor=pointer]:
+          - /url: https://threejs.org/
+          - img "ThreeJS" [ref=e197]
+          - paragraph [ref=e198]: ThreeJS
+    - generic [ref=e199]:
+      - paragraph [ref=e200]: Featured
+      - generic [ref=e201]: Projects
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - img "SudoResume"
+              - generic [ref=e206]:
+                - heading "SudoResume" [level=2] [ref=e207]
+                - paragraph [ref=e209]: AI-Powered Platform for ATS-Friendly and Optimized Resumes.
+                - link "Website" [ref=e211] [cursor=pointer]:
+                  - /url: https://sudoresume.com
+                  - generic [ref=e212]:
+                    - img [ref=e213]
+                    - generic [ref=e216]: Website
+            - generic:
+              - generic:
+                - generic: Tech Stack
+                - generic:
+                  - generic: NextJS
+                  - generic: TypeScript
+                  - generic: Tailwind
+                  - generic: Prisma
+                  - generic: HTML
+                  - generic: Langchain
+          - button [ref=e217] [cursor=pointer]:
+            - img [ref=e218]
+          - button [ref=e220] [cursor=pointer]:
+            - img [ref=e221]
+        - generic [ref=e223]:
+          - button "Go to slide 1" [ref=e224] [cursor=pointer]
+          - button "Go to slide 2" [ref=e225] [cursor=pointer]
+          - button "Go to slide 3" [ref=e226] [cursor=pointer]
+          - button "Go to slide 4" [ref=e227] [cursor=pointer]
+          - button "Go to slide 5" [ref=e228] [cursor=pointer]
+      - link "Show All Projects" [ref=e230] [cursor=pointer]:
+        - /url: https://projects.prasoon-mahawar.dev/
+        - generic [ref=e232]: Show All Projects
+    - generic [ref=e233]:
+      - paragraph [ref=e234]: Contributions
+      - generic [ref=e235]: Github
+      - heading "GitHub Contributions" [level=2] [ref=e236]
+      - img [ref=e238]
+    - generic [ref=e243]:
+      - paragraph [ref=e244]: The Tech
+      - generic [ref=e245]: Streams
+      - generic [ref=e246]:
+        - generic [ref=e248] [cursor=pointer]:
+          - link "Frame 1 06:32" [ref=e249]:
+            - /url: https://www.youtube.com/watch?v=UjdkqTSG0j4
+            - img "Frame 1" [ref=e250]
+            - generic [ref=e253]: 06:32
+          - link "Frame 2 00:00" [ref=e254]:
+            - /url: https://www.youtube.com/@prasoonmahawarYT/
+            - img "Frame 2" [ref=e255]
+            - generic [ref=e258]: 00:00
+          - link "Frame 3 00:01" [ref=e259]:
+            - /url: https://www.youtube.com/@prasoonmahawarYT/
+            - img "Frame 3" [ref=e260]
+            - generic [ref=e263]: 00:01
+          - link "Frame 4 00:02" [ref=e264]:
+            - /url: https://www.youtube.com/@prasoonmahawarYT/
+            - img "Frame 4" [ref=e265]
+            - generic [ref=e268]: 00:02
+        - generic [ref=e269]:
+          - generic [ref=e275]:
+            - generic [ref=e276]: V3
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - generic [ref=e279]: "||"
+                - generic [ref=e281]: "||"
+              - generic [ref=e283]:
+                - generic [ref=e284]: "||"
+                - generic [ref=e286]: "||"
+          - generic [ref=e287]:
+            - generic [ref=e288]: V2
+            - generic [ref=e291]:
+              - generic [ref=e292]: "||"
+              - generic [ref=e294]: "||"
+          - generic [ref=e296]:
+            - generic [ref=e297]: V1
+            - generic [ref=e301]:
+              - generic [ref=e302]: "||"
+              - generic [ref=e304]: "||"
+          - generic [ref=e305]:
+            - generic [ref=e306]: A1
+            - generic [ref=e307]:
+              - generic [ref=e308]:
+                - generic [ref=e309]: "||"
+                - generic [ref=e311]: "||"
+              - generic [ref=e312]:
+                - generic [ref=e313]: "||"
+                - generic [ref=e315]: "||"
+              - generic [ref=e316]:
+                - generic [ref=e317]: "||"
+                - generic [ref=e319]: "||"
+        - link "View full channel" [ref=e321] [cursor=pointer]:
+          - /url: https://youtube.com/@prasoonmahawarYT/
+          - generic [ref=e323]: View full channel
+    - generic [ref=e324]:
+      - paragraph [ref=e325]: Paper of
+      - generic [ref=e326]: Certifications
+      - generic [ref=e327]:
+        - link "Building Ambient Agents with LangGraph Building Ambient Agents with LangGraph @ LangChain Academy 26.07.2025" [ref=e328] [cursor=pointer]:
+          - /url: https://academy.langchain.com/certificates/h7mct4cfbg
+          - img "Building Ambient Agents with LangGraph" [ref=e329]
+          - generic [ref=e330]:
+            - heading "Building Ambient Agents with LangGraph" [level=4] [ref=e331]
+            - generic [ref=e332]:
+              - definition [ref=e334]: "@ LangChain Academy"
+              - definition [ref=e337]:
+                - time [ref=e338]: 26.07.2025
+          - img [ref=e339]
+        - link "Hugging Face Agents Course Hugging Face Agents Course @ Hugging Face 23.06.2025" [ref=e342] [cursor=pointer]:
+          - /url: https://cdn-uploads.huggingface.co/production/uploads/noauth/R6_9fP3HJXTKqFThVhsD6.webp
+          - img "Hugging Face Agents Course" [ref=e343]
+          - generic [ref=e344]:
+            - heading "Hugging Face Agents Course" [level=4] [ref=e345]
+            - generic [ref=e346]:
+              - definition [ref=e348]: "@ Hugging Face"
+              - definition [ref=e351]:
+                - time [ref=e352]: 23.06.2025
+          - img [ref=e353]
+        - link "Three.js Journey Three.js Journey @ threejs.journey 08.12.2024" [ref=e356] [cursor=pointer]:
+          - /url: https://threejs-journey.com/certificate/view/6385
+          - img "Three.js Journey" [ref=e357]
+          - generic [ref=e358]:
+            - heading "Three.js Journey" [level=4] [ref=e359]
+            - generic [ref=e360]:
+              - definition [ref=e362]: "@ threejs.journey"
+              - definition [ref=e365]:
+                - time [ref=e366]: 08.12.2024
+          - img [ref=e367]
+        - link "Fundamentals of Accelerated Computing with CUDA Python Fundamentals of Accelerated Computing with CUDA Python @ NVIDIA 19.07.2024" [ref=e370] [cursor=pointer]:
+          - /url: https://learn.nvidia.com/certificates?id=N7f0NzfWQwGuVSO6WQKQNw
+          - img "Fundamentals of Accelerated Computing with CUDA Python" [ref=e371]
+          - generic [ref=e372]:
+            - heading "Fundamentals of Accelerated Computing with CUDA Python" [level=4] [ref=e373]
+            - generic [ref=e374]:
+              - definition [ref=e376]: "@ NVIDIA"
+              - definition [ref=e379]:
+                - time [ref=e380]: 19.07.2024
+          - img [ref=e381]
+        - link "Front End Web Developer Nanodegree Front End Web Developer Nanodegree @ Udacity 12.06.2021" [ref=e384] [cursor=pointer]:
+          - /url: https://www.udacity.com/certificate/WMANP5L4
+          - img "Front End Web Developer Nanodegree" [ref=e385]
+          - generic [ref=e386]:
+            - heading "Front End Web Developer Nanodegree" [level=4] [ref=e387]
+            - generic [ref=e388]:
+              - definition [ref=e390]: "@ Udacity"
+              - definition [ref=e393]:
+                - time [ref=e394]: 12.06.2021
+          - img [ref=e395]
+        - button "+ 5 More" [ref=e399] [cursor=pointer]:
+          - generic [ref=e400]: + 5 More
+    - generic [ref=e401]:
+      - generic [ref=e403]:
+        - img [ref=e405]
+        - generic [ref=e406]:
+          - generic [ref=e407]: Socials
+          - generic [ref=e408]:
+            - link "Prasoon's Linkedin" [ref=e409] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/prasoonmahawar
+              - img "Prasoon's Linkedin" [ref=e410]
+            - link "Prasoon's Twitter" [ref=e411] [cursor=pointer]:
+              - /url: https://x.com/prasoonmahawar
+              - img "Prasoon's Twitter" [ref=e412]
+            - link "Prasoon's Github" [ref=e413] [cursor=pointer]:
+              - /url: https://www.github.com/prasoonmhwr
+              - img "Prasoon's Github" [ref=e414]
+          - heading "Machine Learning Engineer • FullStack Engineer • F1 Enthusiast" [level=3] [ref=e415]
+          - button "Let's Talk" [ref=e416] [cursor=pointer]:
+            - generic [ref=e417]: Let's Talk
+      - contentinfo [ref=e418]:
+        - generic [ref=e420]: Prasoon

@@ -1,0 +1,428 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - navigation "Breadcrumbs" [ref=e5]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "~" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]: /
+        - listitem [ref=e10]
+    - navigation [ref=e12]:
+      - link "About" [ref=e13] [cursor=pointer]:
+        - /url: /about
+      - link "Posts" [ref=e14] [cursor=pointer]:
+        - /url: /posts
+      - link "Projects" [ref=e15] [cursor=pointer]:
+        - /url: /projects
+      - link "Pics" [ref=e16] [cursor=pointer]:
+        - /url: /pics
+      - button "Open more navigation items" [ref=e17] [cursor=pointer]: More...
+  - complementary [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]: Navigation
+      - button "Close navigation menu" [ref=e21]:
+        - img [ref=e22]
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - heading "Theme" [level=3] [ref=e27]:
+          - img [ref=e28]
+          - text: Theme
+        - generic [ref=e33]:
+          - button "Latte" [ref=e34] [cursor=pointer]
+          - button "Frappe" [ref=e35] [cursor=pointer]
+          - button "Macchiato" [ref=e36] [cursor=pointer]
+          - button "Mocha" [ref=e37] [cursor=pointer]
+      - generic [ref=e38]:
+        - button "Select rosewater accent color" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: rosewater
+        - button "Select flamingo accent color" [ref=e41] [cursor=pointer]:
+          - generic [ref=e42]: flamingo
+        - button "Select pink accent color" [ref=e43] [cursor=pointer]:
+          - generic [ref=e44]: pink
+        - button "Select mauve accent color" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: mauve
+        - button "Select red accent color" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: red
+        - button "Select maroon accent color" [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]: maroon
+        - button "Select peach accent color" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: peach
+        - button "Select yellow accent color" [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: yellow
+        - button "Select green accent color" [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: green
+        - button "Select teal accent color" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: teal
+        - button "Select sky accent color" [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: sky
+        - button "Select sapphire accent color" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]: sapphire
+        - button "Select blue accent color" [ref=e63] [cursor=pointer]:
+          - generic [ref=e64]: blue
+        - button "Select lavender accent color" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: lavender
+      - generic [ref=e68] [cursor=pointer]:
+        - checkbox "Toggle the colorful background on/off" [ref=e69]
+        - generic [ref=e70]: "Background effect: off"
+    - navigation [ref=e71]:
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "About" [ref=e74] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e75]:
+          - link "Posts" [ref=e76] [cursor=pointer]:
+            - /url: /posts
+        - listitem [ref=e77]:
+          - link "Projects" [ref=e78] [cursor=pointer]:
+            - /url: /projects
+        - listitem [ref=e79]:
+          - link "Pics" [ref=e80] [cursor=pointer]:
+            - /url: /pics
+        - listitem [ref=e81]:
+          - separator [ref=e82]
+        - listitem [ref=e83]: More
+        - listitem [ref=e84]:
+          - link "Resume" [ref=e85] [cursor=pointer]:
+            - /url: /resume.pdf
+        - listitem [ref=e86]:
+          - link "Tutorials" [ref=e87] [cursor=pointer]:
+            - /url: /tutorials
+        - listitem [ref=e88]:
+          - link "Notes" [ref=e89] [cursor=pointer]:
+            - /url: https://notes.jasoncameron.dev
+        - listitem [ref=e90]:
+          - link "Terminal" [ref=e91] [cursor=pointer]:
+            - /url: https://terminal.jasoncameron.dev
+  - main [ref=e92]:
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - heading "Hey! I'm Jason Hover or focus to see a fun fact about my name 'JSON' Cameron" [level=1] [ref=e95]:
+          - text: Hey! I'm
+          - generic [ref=e96]:
+            - generic [ref=e97]: Jason
+            - generic [ref=e98]:
+              - text: J
+              - button "Hover or focus to see a fun fact about my name" [ref=e99]: a
+              - text: son
+              - generic: "'JSON'"
+            - text: Cameron
+        - paragraph [ref=e100]:
+          - text: I'm currently working as a Senior SWE @
+          - link "Stan" [ref=e101] [cursor=pointer]:
+            - /url: https://stan.store
+          - text: . I've written software that is trusted by
+          - link "The United Nations" [ref=e102] [cursor=pointer]:
+            - /url: https://policytoolbox.iiep.unesco.org
+          - text: ","
+          - link "The Linux Foundation" [ref=e103] [cursor=pointer]:
+            - /url: https://git.kernel.org
+          - text: ","
+          - link "Arch Linux" [ref=e104] [cursor=pointer]:
+            - /url: https://wiki.archlinux.org
+          - text: ","
+          - link "GNOME" [ref=e105] [cursor=pointer]:
+            - /url: https://gitlab.gnome.org
+          - text: ","
+          - link "Valve" [ref=e106] [cursor=pointer]:
+            - /url: /projects/anubis#valve
+          - text: ","
+          - link "FFmpeg" [ref=e107] [cursor=pointer]:
+            - /url: https://trac.ffmpeg.org
+          - text: and many others
+          - link "[1]" [ref=e108] [cursor=pointer]:
+            - /url: /projects/anubis
+          - text: . Seeing code I wrote actually help people at scale is what keeps me building. Currently building AI that helps people articulate their ideas and share them at scale.
+        - generic [ref=e109]:
+          - link "GitHub" [ref=e110] [cursor=pointer]:
+            - /url: https://github.com/JasonLovesDoggo
+            - img [ref=e111]
+            - generic [ref=e113]: GitHub
+          - generic [ref=e114]: "|"
+          - link "LinkedIn" [ref=e115] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/jsoncameron/
+            - img [ref=e116]
+            - generic [ref=e119]: LinkedIn
+          - generic [ref=e120]: "|"
+          - link [ref=e121] [cursor=pointer]:
+            - /url: https://x.com/tomlparser
+            - img [ref=e122]
+          - generic [ref=e125]: "|"
+          - link "More about me" [ref=e126] [cursor=pointer]:
+            - /url: /about
+            - generic [ref=e127]: More about me
+            - img [ref=e128]
+      - generic [ref=e132]:
+        - button "View details for Sr Full Stack Engineer at Stan" [ref=e133] [cursor=pointer]:
+          - img "Stan Logo" [ref=e134]
+          - generic [ref=e136]: Stan
+        - generic [ref=e137]: /
+        - button "View details for CTO at StorageBox" [ref=e138] [cursor=pointer]:
+          - img "StorageBox Logo" [ref=e139]
+          - generic [ref=e141]: StorageBox (Past)
+        - generic [ref=e142]: /
+        - button "View details for Cofounder at Hack Canada" [ref=e143] [cursor=pointer]:
+          - img "Hack Canada Logo" [ref=e144]
+          - generic [ref=e146]: Hack Canada (Past)
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - heading "Featured Projects" [level=2] [ref=e149]:
+            - img [ref=e150]
+            - generic [ref=e152]: Featured Projects
+          - link "View all" [ref=e153] [cursor=pointer]:
+            - /url: /projects
+            - generic [ref=e154]: View all
+            - img [ref=e155]
+        - generic [ref=e158]:
+          - link "The Anubis GitHub repository Anubis Weighs the soul of incoming HTTP requests using proof-of-work to stop AI crawlers and other malicious bots. golang security ai anti-bot defense proof-of-work" [ref=e159] [cursor=pointer]:
+            - /url: /projects/anubis
+            - img "The Anubis GitHub repository" [ref=e161]
+            - generic [ref=e162]:
+              - heading "Anubis" [level=3] [ref=e163]
+              - paragraph [ref=e164]: Weighs the soul of incoming HTTP requests using proof-of-work to stop AI crawlers and other malicious bots.
+              - generic [ref=e166]:
+                - img [ref=e167]
+                - generic [ref=e170]: golang
+                - generic [ref=e171]: security
+                - generic [ref=e172]: ai
+                - generic [ref=e173]: anti-bot
+                - generic [ref=e174]: defense
+                - generic [ref=e175]: proof-of-work
+          - link "The Abacus GitHub repository Abacus Abacus at it's core is a simple counter. However, it was designed from the ground up to be scalable, secure and easy to use. It was build using Golang, Gin, Docker, Redis. In fact it's currently powereing the page view counter on this site. golang gin docker redis analytics" [ref=e176] [cursor=pointer]:
+            - /url: /projects/abacus
+            - img "The Abacus GitHub repository" [ref=e178]
+            - generic [ref=e179]:
+              - heading "Abacus" [level=3] [ref=e180]
+              - paragraph [ref=e181]: Abacus at it's core is a simple counter. However, it was designed from the ground up to be scalable, secure and easy to use. It was build using Golang, Gin, Docker, Redis. In fact it's currently powereing the page view counter on this site.
+              - generic [ref=e183]:
+                - img [ref=e184]
+                - generic [ref=e187]: golang
+                - generic [ref=e188]: gin
+                - generic [ref=e189]: docker
+                - generic [ref=e190]: redis
+                - generic [ref=e191]: analytics
+      - generic [ref=e192]:
+        - heading "Dashboard / Highlights" [level=2] [ref=e193]
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - heading "Theme" [level=3] [ref=e196]:
+              - img [ref=e197]
+              - text: Theme
+            - generic [ref=e202]:
+              - button "Latte" [ref=e203] [cursor=pointer]
+              - button "Frappe" [ref=e204] [cursor=pointer]
+              - button "Macchiato" [ref=e205] [cursor=pointer]
+              - button "Mocha" [ref=e206] [cursor=pointer]
+            - generic [ref=e207]:
+              - button "Select rosewater accent color" [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: rosewater
+              - button "Select flamingo accent color" [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: flamingo
+              - button "Select pink accent color" [ref=e212] [cursor=pointer]:
+                - generic [ref=e213]: pink
+              - button "Select mauve accent color" [ref=e214] [cursor=pointer]:
+                - generic [ref=e215]: mauve
+              - button "Select red accent color" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: red
+              - button "Select maroon accent color" [ref=e218] [cursor=pointer]:
+                - generic [ref=e219]: maroon
+              - button "Select peach accent color" [ref=e220] [cursor=pointer]:
+                - generic [ref=e221]: peach
+              - button "Select yellow accent color" [ref=e222] [cursor=pointer]:
+                - generic [ref=e223]: yellow
+              - button "Select green accent color" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: green
+              - button "Select teal accent color" [ref=e226] [cursor=pointer]:
+                - generic [ref=e227]: teal
+              - button "Select sky accent color" [ref=e228] [cursor=pointer]:
+                - generic [ref=e229]: sky
+              - button "Select sapphire accent color" [ref=e230] [cursor=pointer]:
+                - generic [ref=e231]: sapphire
+              - button "Select blue accent color" [ref=e232] [cursor=pointer]:
+                - generic [ref=e233]: blue
+              - button "Select lavender accent color" [ref=e234] [cursor=pointer]:
+                - generic [ref=e235]: lavender
+            - generic [ref=e237] [cursor=pointer]:
+              - checkbox "Toggle the colorful background on/off" [ref=e238]
+              - generic [ref=e239]: "Background effect: off"
+          - generic [ref=e240]:
+            - heading "Let's Connect" [level=3] [ref=e241]:
+              - img [ref=e242]
+              - text: Let's Connect
+            - paragraph [ref=e245]: Always open to interesting projects and conversations.
+            - link "Book a Chat" [ref=e246] [cursor=pointer]:
+              - /url: https://cal.com/jsoncam/15min
+              - img [ref=e247]
+              - text: Book a Chat
+          - generic [ref=e250]:
+            - button "Currently Based In 📍" [ref=e251] [cursor=pointer]:
+              - img [ref=e252]
+              - text: Currently Based In 📍
+            - generic [ref=e257]: Loading map...
+            - button "Toronto, ON" [ref=e259] [cursor=pointer]
+          - generic [ref=e260]:
+            - button "What is this?" [ref=e262]:
+              - img [ref=e263]
+            - generic [ref=e266]:
+              - generic [ref=e267]: "---"
+              - button "CLICK ME" [disabled] [ref=e268]
+              - paragraph [ref=e269]: you've clicked 0 times
+          - generic [ref=e270]:
+            - generic [ref=e271]:
+              - heading "Recent Commits" [level=3] [ref=e272]:
+                - img [ref=e273]
+                - generic [ref=e275]: Recent Commits
+              - link "See how this is calculated Katib" [ref=e276] [cursor=pointer]:
+                - /url: https://katib.jsn.cam
+                - text: "[info]"
+            - list [ref=e277]:
+              - listitem [ref=e278]:
+                - 'link "nyx: feat: integrate latest commits fetching and display in project overview +305 / -23" [ref=e279] [cursor=pointer]':
+                  - /url: https://github.com/JasonLovesDoggo/nyx/commit/d73346658330be57a5f34bf2391b5ad32b519341
+                  - generic [ref=e280]: "nyx:"
+                  - generic [ref=e281]: "feat: integrate latest commits fetching and display in project overview"
+                  - generic [ref=e282]: +305 / -23
+              - listitem [ref=e283]:
+                - 'link "Katib: Merge pull request #4 from JasonLovesDoggo/feature/github-streak-endp… +41 / -8" [ref=e284] [cursor=pointer]':
+                  - /url: https://github.com/JasonLovesDoggo/Katib/commit/dca9afc8c1c732d9ccbf9391e77b1fe289e2e05c
+                  - generic [ref=e285]: "Katib:"
+                  - generic [ref=e286]: "Merge pull request #4 from JasonLovesDoggo/feature/github-streak-endp…"
+                  - generic [ref=e287]: +41 / -8
+              - listitem [ref=e288]:
+                - 'link "Katib: Add author filtering to GetMostRecentCommit function +41 / -8" [ref=e289] [cursor=pointer]':
+                  - /url: https://github.com/JasonLovesDoggo/Katib/commit/e1e1d7df68e7c9e975d35f7394b7509ace215c80
+                  - generic [ref=e290]: "Katib:"
+                  - generic [ref=e291]: Add author filtering to GetMostRecentCommit function
+                  - generic [ref=e292]: +41 / -8
+            - generic [ref=e293]:
+              - link "View on GitHub" [ref=e294] [cursor=pointer]:
+                - /url: https://github.com/jasonlovesdoggo
+                - generic [ref=e295]: View on GitHub
+                - img [ref=e296]
+              - generic "Language breakdown" [ref=e300]:
+                - generic [ref=e302]:
+                  - generic [ref=e303]:
+                    - generic:
+                      - generic:
+                        - generic: Go
+                        - generic: •
+                        - generic: 37%
+                  - generic [ref=e304]:
+                    - generic:
+                      - generic:
+                        - generic: HTML
+                        - generic: •
+                        - generic: 32%
+                  - generic [ref=e305]:
+                    - generic:
+                      - generic:
+                        - generic: TypeScript
+                        - generic: •
+                        - generic: 13%
+                  - generic [ref=e306]:
+                    - generic:
+                      - generic:
+                        - generic: Svelte
+                        - generic: •
+                        - generic: 7%
+                  - generic [ref=e307]:
+                    - generic:
+                      - generic:
+                        - generic: Shell
+                        - generic: •
+                        - generic: 5%
+                  - generic [ref=e308]:
+                    - generic:
+                      - generic:
+                        - generic: CSS
+                        - generic: •
+                        - generic: 3%
+                  - generic [ref=e309]:
+                    - generic:
+                      - generic:
+                        - generic: JavaScript
+                        - generic: •
+                        - generic: 2%
+                  - generic [ref=e310]:
+                    - generic:
+                      - generic:
+                        - generic: templ
+                        - generic: •
+                        - generic: 0%
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - heading "Latest Posts" [level=3] [ref=e313]:
+                - img [ref=e314]
+                - generic [ref=e316]: Latest Posts
+              - link "View all posts" [ref=e317] [cursor=pointer]:
+                - /url: /posts
+                - img [ref=e318]
+            - list [ref=e322]:
+              - listitem [ref=e323]:
+                - link "AWS Lambda InvalidEntrypoint Debugging – Nov 28, 2025" [ref=e324] [cursor=pointer]:
+                  - /url: /posts/aws-lambda-handler-gotchas
+                  - generic [ref=e325]: AWS Lambda InvalidEntrypoint Debugging
+                  - generic [ref=e326]: –
+                  - generic [ref=e327]: Nov 28, 2025
+              - listitem [ref=e328]:
+                - link "AWS CDK Credentials Hell – Nov 26, 2025" [ref=e329] [cursor=pointer]:
+                  - /url: /posts/aws-cdk-sso-hell
+                  - generic [ref=e330]: AWS CDK Credentials Hell
+                  - generic [ref=e331]: –
+                  - generic [ref=e332]: Nov 26, 2025
+              - listitem [ref=e333]:
+                - link "Hello World – Oct 19, 2025" [ref=e334] [cursor=pointer]:
+                  - /url: /posts/hello-world
+                  - generic [ref=e335]: Hello World
+                  - generic [ref=e336]: –
+                  - generic [ref=e337]: Oct 19, 2025
+              - listitem [ref=e338]:
+                - link "Stop Burning CPU on Dead FastAPI Streams – Jul 06, 2025" [ref=e339] [cursor=pointer]:
+                  - /url: /posts/fastapi-cancel-on-disconnect
+                  - generic [ref=e340]: Stop Burning CPU on Dead FastAPI Streams
+                  - generic [ref=e341]: –
+                  - generic [ref=e342]: Jul 06, 2025
+  - generic [ref=e343]:
+    - generic [ref=e345]:
+      - generic [ref=e346]: "Webrings:"
+      - link "cpt" [ref=e347] [cursor=pointer]:
+        - /url: https://ctp-webr.ing/
+      - generic [ref=e348]:
+        - text: "{"
+        - link "<" [ref=e349] [cursor=pointer]:
+          - /url: https://ctp-webr.ing/json/previous
+        - text: "|"
+        - link ">" [ref=e350] [cursor=pointer]:
+          - /url: https://ctp-webr.ing/json/next
+        - text: "}"
+    - contentinfo [ref=e351]:
+      - generic [ref=e352]:
+        - generic [ref=e353]: © 2026 Jason Cameron
+        - generic [ref=e354]: "-"
+        - generic "Service Status" [ref=e355]:
+          - generic [ref=e359]: All Services Nominal
+      - generic [ref=e360]:
+        - generic "How long you have been surfing my site" [ref=e361]:
+          - img [ref=e362]
+          - generic [ref=e365]: 00:00
+        - generic [ref=e366]: "-"
+        - link "1,241,689 views" [ref=e367] [cursor=pointer]:
+          - /url: https://abacus.jasoncameron.dev
+        - generic [ref=e368]: "-"
+        - link "448b603" [ref=e369] [cursor=pointer]:
+          - /url: https://github.com/JasonLovesDoggo/nyx/commit/448b603d730fb6d30735f86950662db46c81c997
+          - img [ref=e370]
+          - generic [ref=e372]: 448b603
+        - generic [ref=e373]: "-"
+        - generic [ref=e374]:
+          - link "GitHub" [ref=e375] [cursor=pointer]:
+            - /url: https://github.com/JasonLovesDoggo
+            - img [ref=e376]
+          - link "LinkedIn" [ref=e378] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/jsoncameron/
+            - img [ref=e379]
+          - link "X" [ref=e382] [cursor=pointer]:
+            - /url: https://x.com/tomlparser
+            - img [ref=e383]
+          - link "Instagram" [ref=e386] [cursor=pointer]:
+            - /url: https://www.instagram.com/jsn.cam/
+            - img [ref=e387]

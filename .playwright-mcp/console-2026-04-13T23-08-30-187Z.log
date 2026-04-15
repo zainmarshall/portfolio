@@ -1,0 +1,7 @@
+[     771ms] [LOG] true @ https://bence.codes/_next/static/chunks/app/page-076739d0c2a9797f.js:0
+[     931ms] [ERROR] Access to XMLHttpRequest at 'https://cloudflareinsights.com/cdn-cgi/rum' from origin 'https://bence.codes' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://bence.codes/:0
+[     932ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://cloudflareinsights.com/cdn-cgi/rum:0
+[    1820ms] [LOG] Original time: 2026-04-13T23:00 @ https://bence.codes/_next/static/chunks/app/page-076739d0c2a9797f.js:0
+[    1821ms] [LOG] UTC Date: Mon Apr 13 2026 19:08:31 GMT-0400 (Eastern Daylight Time) @ https://bence.codes/_next/static/chunks/app/page-076739d0c2a9797f.js:0
+[    1824ms] [LOG] Local Date: Tue Apr 14 2026 00:08:31 GMT-0400 (Eastern Daylight Time) @ https://bence.codes/_next/static/chunks/app/page-076739d0c2a9797f.js:0
+[    1824ms] [LOG] Formatted local time: 12:08 AM @ https://bence.codes/_next/static/chunks/app/page-076739d0c2a9797f.js:0

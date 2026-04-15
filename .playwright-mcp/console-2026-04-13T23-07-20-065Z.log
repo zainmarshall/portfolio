@@ -1,0 +1,11 @@
+[    2264ms] [ERROR] Failed to fetch count: TypeError: Failed to fetch
+    at window.fetch (https://jasoncameron.dev/_app/immutable/chunks/DYYFfHTp.js:1:2144)
+    at w (https://jasoncameron.dev/_app/immutable/nodes/2.OsDCHTTP.js:10:1374)
+    at https://jasoncameron.dev/_app/immutable/nodes/2.OsDCHTTP.js:10:971
+    at kn (https://jasoncameron.dev/_app/immutable/chunks/D9OGICHv.js:1:32426)
+    at https://jasoncameron.dev/_app/immutable/chunks/Cwt_zOpt.js:1:537
+    at Or (https://jasoncameron.dev/_app/immutable/chunks/D9OGICHv.js:1:30178)
+    at Ke (https://jasoncameron.dev/_app/immutable/chunks/D9OGICHv.js:1:31286)
+    at Cn (https://jasoncameron.dev/_app/immutable/chunks/D9OGICHv.js:1:12111)
+    at qt.Ot (https://jasoncameron.dev/_app/immutable/chunks/D9OGICHv.js:1:10318)
+    at qt.flush (https://jasoncameron.dev/_app/immutable/chunks/D9OGICHv.js:1:7965) @ https://jasoncameron.dev/_app/immutable/nodes/2.OsDCHTTP.js:9

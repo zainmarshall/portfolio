@@ -1,0 +1,6 @@
+- generic [active]:
+  - main:
+    - generic [ref=e1]:
+      - paragraph [ref=e2]: Hello
+      - img [ref=e4]
+  - alert [ref=e6]

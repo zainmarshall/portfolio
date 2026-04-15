@@ -59,14 +59,13 @@
 
 			if (!open) {
 				if (isInput) return;
+				if (e.metaKey || e.ctrlKey || e.altKey) return;
 
-				if ((e.key === 'k' && (e.metaKey || e.ctrlKey)) || e.key === '/') {
+				if (e.key === '/') {
 					e.preventDefault();
 					handleOpen();
 					return;
 				}
-				if (e.key === 'h') { goto(`${base}/`); return; }
-				if (e.key === 'c') { goto(`${base}/writeups`); return; }
 				if (e.key === '?') { handleOpen(); return; }
 				return;
 			}
